@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+  backend:
+      container_name: backend
+      build:
+        context: .
+        target: development
+      volumes:
+        - .:/usr/src/app
+        - /usr/src/app/node_modules
+      ports:
+      - 9229:9229
+      command: sh -c "npm run start:dev && npm run start:dev:db"

@@ -1,0 +1,43 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+In this chapter the conclusions for this study are presented, by doing a summary of the study and its main contributions.
+This study aimed at responding to the following research question: \textit{"What are the requirements for Self-Sovereign Identity (SSI) to be implemented effectively in an Internet of Things (IoT) environment?"}.
+
+Towards addressing this question, in Chapter~\ref{sec:background} background information was provided on the topic of (Digital) Identity, the history of Identity Management Systems through time, and then the fundamentals of Self-Sovereign Identity were presented. The latter included mentions to Decentralized Identifiers, \textit{DIDComm}, Verifiable Credentials, Wallets, Agents, etc. Still in this chapter, the related work was presented, where it was evident that the field of Self-Sovereign Identity with IoT is not yet mature, but provided much information on the advantages of a blockchain-based IdMS. Much of the literature on SSI with IoT provided an analysis on the current state of technologies and solutions available for that purpose, from which a comparison was made, to understand the differences between them.
+
+Chapter~\ref{sec:requirement_elicitation} narrowed the field of research from SSI with IoT to the automotive domain and more specifically to the Electric Vehicle Charging use case. Here the current state of Electric Vehicle Charging Networks was presented. The use case was analyzed with the assistance of domain experts, from which the major liabilities were extracted, alongside a set of requirements with regards to the necessary settlements between the different parties in order for the owner of an EV to be able to charge its vehicle. 
+
+In Chapter~\ref{section:design_and_implementation} the system design was presented, where the architecture of a novel Verifiable Electric Vehicle Charging network architecture was presented, based on a set of technological decisions taken at the beginning of that same chapter that would facilitate the largest number of requirements. Afterwards, the system was analyzed with regards to the changes needed in the original flow of interactions, to accommodate for the SSI-driven approach.
+
+Chapter~\ref{sec:implementation_and_deployment_details} outlined the necessary steps used to implement the system and how to deploy it. The system consists of a dockerized full stack application that is able to interact with the agents and perform custom actions tailored for the particular use case at hand. 
+
+In Chapter~\ref{section:evaluation} the assessment of the system was made, through means of benchmarks, questionnaires made to domain experts and cross-checking the requirements with decisions taken across this study. The overall assessment was positive given that almost all requirements were met, and the ones that were not fulfilled were discussed and their fulfillment should be achievable if the measures listed are addressed in the future.
+Regarding the evaluation of the general SSI with IoT research question, a step has been taken which makes that prospect possible in a near future, but more use cases need to be investigated to determine more limitations and explore different IoT devices, for example sensors, home assistants, or others.
+
+\newpage
+
+\section{Future Work}
+\label{subsec:future_work}
+
+In this chapter future work is sketched in order to provide more solidity to the claims made in the tackled use case (Verifiable Electric Vehicle Charging) and to validate the general case of SSI with IoT.
+
+\subsection*{Experiment with other DLTs}
+\label{subsubsec:experiment_with_other_dlts}
+
+Given that the decision to opt for Hyperledger Indy for the DLT was taken largely due to its active community and public availability, in detriment of the IOTA Tangle approach or any of the others listed in Section~\ref{subsec:existing_technologies_and_application_domains}, it would be interesting to assess the differences in the implementation whether a different DLT was adopted. Possibly with the IOTA Tangle users would have a more scalable solution, which might address Requirement~\ref{evaluation:NFR-1.1} that was marked as inconclusive with the Hyperledger Indy approach.
+
+\subsection*{Investigate with other use cases}
+\label{subsubsec:investigate_with_other_use_cases}
+
+As mentioned at the end of Chapter~\ref{section:evaluation}, assessing more use cases is crucial to understanding the possibilities of incorporating SSI with IoT. This project focuses on IoT devices that fortunately do not lack any computational power or electricity, which is an assumption that cannot be made for all IoT devices. Therefore it is imperative to study how SSI could be enabled for low-capacity IoT devices to be able to respond with more certainty to the presented research question.
+
+\subsection*{Merge proof requests}
+\label{subsubsec:merge_proof_requests}
+
+Although a small improvement to the system, it would be interesting to assess the feasibility of merging two or more credential requests into a single presentation request, in order to minimize user interactions with the system, as required by Requirement~\ref{evaluation:FR-3.4}.
+
+\subsection*{Address GDPR compliance and other limitations}
+\label{subsubsec:address_gdpr_compliance}
+
+One of the pending matters of this project is the fact that, given the fact that it was built on top of a proof-of-concept, privacy concerns in the proposed solution were simplified, leaving room for linkability between the EV Owner and its EV. This has been addressed as a limitation in the Evaluation chapter (Section~\ref{subsubsec:limitations}), and in order to account for these liabilities, it is necessary to create means to link the EV Owner with its EV using a mechanism different than the usage of a unique identifier between the two. A possible approach would be to generate a different number every session so that the link between the two could not be established by the Charging Station, but the feasibility of this mechanism can be a topic for a thesis of its own. The remaining of the limitations also need to be cleared in order to think about applying this solution to a prototype/production level application.

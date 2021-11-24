@@ -1,0 +1,68 @@
+<!-- <boy> -->
+    <div class="hero-image-in">
+        <div class="hero-text">
+          <h1>Charging Station</h1>
+        </div>
+      </div>
+      
+      <div>
+      <div class="container-with-padding" align="center">
+        <p class="centered-text">Please scan the QR code from your Trinsic Mobile App</p>
+      
+        <p class="qr">
+          <qrcode [qrdata]="csQRCode" [width]="256" [errorCorrectionLevel]="'M'"></qrcode>
+        </p>
+         <p  class="centered-text">
+             After scanning the QR code, a connection request will appear on you Trinsic Mobile App. 
+         </p>
+             <br>
+             <p>In order to start the verification process please click the button below:</p>
+             <button class="btn btn-primary" mat-raised-button (click)="requestProofs()">Request Proofs</button>
+             <br>
+             <br>
+             <button class="btn btn-primary" mat-raised-button [disabled]="!requestedProofs" (click)="verifyProofs()">Verify Proofs</button>
+              
+             <p>Credential of Ownership of Vehicle</p> <img *ngIf="eMSPRequestSent"  src="https://img.icons8.com/color/48/000000/close-window.png"/> <img *ngIf="eMSPRequestWaiting" src="https://img.icons8.com/color/48/000000/iphone-spinner--v2.png"/> <img *ngIf="eMSPRequestApproved" src="https://img.icons8.com/color/48/000000/checkmark--v2.png"/> 
+
+              <p>Credential with proof of Contract with a valid eMSP</p> <img *ngIf="rdwRegistrationEVOwnerRequestSent"  src="https://img.icons8.com/color/48/000000/close-window.png"/> <img *ngIf="rdwRegistrationEVOwnerRequestWaiting" src="https://img.icons8.com/color/48/000000/iphone-spinner--v2.png"/> <img *ngIf="rdwRegistrationEVOwnerRequestApproved" src="https://img.icons8.com/color/48/000000/checkmark--v2.png"/>
+            <br>
+            <p class="centered-text"> <b>Company Name: </b></p>
+            <div [innerHTML]="eMSPCompanyName"></div>
+           <br>
+
+             <button class="btn btn-primary" mat-raised-button [disabled]="!everythingIsCompliantEVOwner" (click)="obtainChargeRate()">Obtain Current Charge Rate</button>
+              
+             <p class="centered-text">  <b> Current Charging Rate: </b></p>
+              <div [innerHTML]="chargingRate"></div>
+             <br>
+             
+             <p>We will also check with your vehicle to make sure we are connecting to the vehicle you claim to own. </p>
+
+        <button class="btn btn-primary" mat-raised-button [disabled]="!everythingIsCompliantEVOwner" (click)="connectToEVAndSendPresentationRequest()" >Request EV Credentials</button>
+
+        <br>
+
+        <button class="btn btn-primary" mat-raised-button [disabled]="!requestedProofsEV" (click)="verifyEVProofs()">Verify Proofs</button>
+
+        <br> 
+
+        <img *ngIf="rdwRegistrationEVRequestSent"  src="https://img.icons8.com/color/48/000000/close-window.png"/> <img *ngIf="rdwRegistrationEVRequestWaiting" src="https://img.icons8.com/color/48/000000/iphone-spinner--v2.png"/> <img *ngIf="rdwRegistrationEVRequestApproved" src="https://img.icons8.com/color/48/000000/checkmark--v2.png"/>
+
+        <br>
+        <br>
+        <p class="centered-text"><b> EVOwner RDW Registration Number</b> </p>
+        <div [innerHTML]="rdwRegistrationEVOwnerID"></div>
+        <p class="centered-text"> <b>Electric Vehicle RDW Registration Number</b> </p>
+        <div [innerHTML]="rdwRegistrationEVID"></div>
+       <br>
+       <br>
+
+       <button class="btn btn-primary" mat-raised-button [disabled]="!everythingIsCompliantEV" (click)="startCharging()" >Start Charging</button>
+
+       <br>
+       <br>
+
+        <button class="btn btn-primary" mat-raised-button [disabled]="!chargingDone" (click)="issueCredential()" >Issue Receipt Credential</button>
+      </div>
+      </div>
+      

@@ -1,0 +1,42 @@
+version: '3.7'
+services:
+  ssi-thesis-frontend:
+    container_name: frontend
+    build:
+      context: client
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - './app/node_modules'
+    ports:
+      - '4200:4200'
+  ev-dashboard: 
+    container_name: ev-dashboard-ui
+    build: 
+      context: ev-dashboard
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - './app/node_modules'
+    ports:
+      - '4201:4201'
+  rdw-dashboard: 
+    container_name: rdw-dashboard-ui
+    build: 
+      context: rdw-dashboard
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - './app/node_modules'
+    ports:
+      - '4202:4202'
+  cpo-dashboard: 
+    container_name: cpo-dashboard-ui
+    build: 
+      context: cpo-dashboard
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/app'
+      - './app/node_modules'
+    ports:
+      - '4203:4203'

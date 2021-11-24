@@ -1,0 +1,22 @@
+<!-- <boy> -->
+    <div class="hero-image-in">
+        <div class="hero-text">
+          <h1>Transportation Agency Portal</h1>
+        </div>
+      </div>
+      
+      <div>
+      <div class="container-with-padding" align="center">
+        <p class="centered-text">1. Please scan the QR code from your SSI Mobile APP</p>
+      
+        <p class="qr">
+          <qrcode [qrdata]="rdwQRCode" [width]="256" [errorCorrectionLevel]="'M'"></qrcode>
+        </p>
+         <p  class="centered-text">2. After scanning the QR code, a connection request will appear on you Mobile SSI App.
+            In order for the credential to be issued, please click on 'Trust the agent'.
+            After the connection is established, please click on the button bellow in order to accept the credential
+          </p>
+        <button class="btn btn-primary" mat-raised-button	(click)="issueCredential()" >Issue Credential</button>
+      </div>
+      </div>
+      

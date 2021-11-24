@@ -1,0 +1,46 @@
+\section{Introduction}
+\label{sec:introduction}
+
+\pagenumbering{arabic}
+
+"Trust is broken on the internet": this is the general idea that is passed in the 2019 "Internet security \& trust" survey conducted by the Center for International Governance Innovation \cite{centre2019cigi} as well as in news articles\footnote{\url{https://www.startupdaily.net/2019/05/csiro-the-internet-is-fundamentally-broken-when-it-comes-to-trust-and-malicious-threats/}}, and one of the many reasons for the appearance of a new concept called Self-Sovereign Identity (SSI). 
+% In this project conducted as a Master Thesis project for the University of Groningen, the main aim is to utilize the concepts of Self-Sovereign Identity within an Internet of Things environment to explore the requirements needed to facilitate a project for an SSI-powered Electric Vehicle Charging Network. Furthermore, a proof-of-concept was created that could either validate or invalidate the usage of these technologies aligned to target the case study at hand.
+The field of Self-Sovereign Identity tackles the difficulty to manage digital identities on the internet by means of its Decentralized Identifiers (DIDs) and Verifiable Credentials (VCs), which puts governance into peoples hands, allowing them to discretize only the information that is needed, while having the power to revoke that same information. According to a study published by Statista\footnote{\url{https://www.statista.com/topics/1145/internet-usage-worldwide/}}, more than half the people in the world are using the internet, which means all of these have the potential to create an account in any service available, or 10, or 100, all of which are generated in approximately the same manner: the user is requested information that the company managing that service will hold on to, in order to create an account for that user, allowing it to access the service via an id (usually the email or an username) and a password combination. In a research conducted by NordPass\footnote{\url{https://nordpass.com}}, a company specialized in password management, they claimed that the average person has 70-80 passwords that they need to memorize\footnote{\url{https://southernmarylandchronicle.com/2020/02/26/new-research-an-average-person-has-more-passwords-than-an-average-pop-song-has-words/}}, which shows how easy it can be for someone to lose track of their credentials and lose access to their own data, which in turn is solely put in the hands of the companies. Nowadays, one of the most widely used forms of identity management system relies on federated solutions, which allow companies to share data on one customer, and allow the customer to have one login credential to assess multiple systems. This somewhat addresses the issue of having too many passwords to memorize, but still allows multiple companies to hold the data on behalf of its owner. The latter is one of the many matters that aims to be addressed by SSI.
+
+Bridging the topic to the field of \acrfull{IoT}, providing digital identity to edge devices is a discrete use case that is not accounted for in many \glspl{IdMS}, where the digital identity is mostly linked to people or enterprise systems that are also managed by people \cite{luecking2020decentralized}.
+The adoption of IoT devices has been increasing at a fast pace according to the "\textit{New Eclipse Foundation’s IoT Commercial Adoption Survey}" conducted by the "Eclipse Foundation"~\footnote{\url{https://www.eclipse.org/org/press-release/20200310-iot-commercial-adoption-survey-2019.php}} where 40\% of the industries surveyed reported the intent to supplement their systems with IoT. 
+Also, in a surveyed report by Business Insider \footnote{\url{https://www.businessinsider.com/internet-of-things-report?international=true&r=US&IR=T}}, it is expected that there will exist close to 41 billion IoT devices connected by the year 2027, which forces more discussion on security and privacy in such an expanding market.
+The \acrfull{ISO} defined IoT as “An infrastructure of interconnected objects, people, systems and information resources together with intelligent services to allow them to process information of the physical and the virtual world and react” \cite{ISO/IEC2015}. 
+Allowing IoT devices to have their own identity sheds light into new possibilities, since nowadays there is substantial presence of "autonomous" or "smart" devices, which can act and make decisions alone or partially aided by humans. These decisions generally involve communication between different devices, and using SSI to prove that the devices are who they claim they are enlightens many use cases to be more secure and less prone to attacks \cite{Sybil2018} \cite{terzi2020securing}. 
+A concrete example of an application of SSI with IoT, which was also be the scope of this project, is the necessity for electric vehicles to ensure they are who they are in order to connect to charging stations, which in turn will operate and manage with the energy grid to supply energy to the vehicle, depending on variables inherent to each vehicle and its owner.
+
+\subsection{Research Question}
+\label{subsec:research_questions}
+
+This thesis, conducted with the collaboration of the IBM Client Innovation Center in Groningen and with the assistance of their domain expertise, has the purpose to tackle the following research question:
+
+\begin{itemize}[leftmargin=0.85in]
+    \item[RQ.  ]\textit{ What are the requirements for Self-Sovereign Identity (SSI) to be implemented effectively in an Internet of Things (IoT) environment?}
+\end{itemize}
+
+In order to assess this, a particular type of IoT devices was selected for assessment, namely the \acrfull{IoV} devices. 
+
+For this end, the following work aims at exploring a case study under the contours defined in the "Guidelines for conducting and reporting case study research in Software Engineering" \cite{Runeson2008}.
+
+Knowledge from domain experts was used to answer the aforementioned research question. The case study that was analysed in this project corresponds to an SSI-powered Electric Vehicle Charging Network in order to mitigate the flaws detected in the current implementation of the system. 
+% To summarize, this thesis focuses on the following problem:
+
+\subsection{Thesis Outline}
+\label{subsec:thesis_outline}
+
+In Chapter~\ref{sec:background} an explanation of the concepts and background information is provided, alongside an in-depth look at the current state-of-the-art in the field of Self-Sovereign Identity with IoT. A brief introduction to Identity Management Systems is given, followed by how the evolution of these lead to blockchain concepts being used to securely store and validate identities (used for SSI). Also a detailed explanation of SSI is provided, by providing more specifications and definitions of its core concepts (DIDs, VCs,...) Also in this chapter an overview of the current technologies and application domains is presented to display the current state-of-the-art when developing using SSI concepts.
+
+In Chapter~\ref{sec:requirement_elicitation}, the assumptions and requirements related to the selected use case of Electric Vehicle Charging are developed, which includes network topology, frameworks and other variables.
+
+Chapter~\ref{section:design_and_implementation} presents the design of the Verifiable Electric Vehicle Charging system. This includes a description of the technology stack motivations, the components of the system as well as a description of the VCs included in the novel architecture. Furthermore, this chapter presents a thorough description of each different flow in the system, making use of \glspl{SSD}.
+
+In Chapter~\ref{sec:implementation_and_deployment_details} the implementation and deployment details are presented, illustrating how the proof-of-concept was developed, the architecture of the latter, and what are the steps needed to reproduce the system, with the aid of code listings.
+
+Chapter~\ref{section:evaluation} contains the evaluation of the research topic, as well as the system. It contains the methodology used to assess the requirements fulfillment, with the support from benchmarks to the system's components as well as feedback from domain experts on the presented solution. At the end of this chapter a discussion on the more relevant requirements is made to highlight some of the more pressing matters to address in the future, or the capabilities of the new system that enable key requirements.
+
+The thesis concludes with Chapter~\ref{sec:conclusion} and Chapter~\ref{subsec:future_work}, with a summary of the main contributions as well as a reflection on the future work for this project, respectively.

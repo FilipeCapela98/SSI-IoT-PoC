@@ -1,0 +1,1119 @@
+Preparing agent image...
+sha256:c27d668792fed91add797ce0c0e9615f00f51802e6ceeef9c4140237bb645119
+
+Use 'docker scan' to run Snyk tests against images to find vulnerabilities and learn how to fix them
+Trying to detect ngrok service endpoint
+jq not found
+192.168.65.6
+Starting [performance] agent with args [--port 8050 --port 8050 --count 1000]
+[0m[?7h[0mFaber      | [0;34mRegistering Faber ...[0m
+[0m[0m[?7h[0mFaber      | [0;34mnym_info: {'did': '7mmUFJFq1ZBymMaznSuTXp', 'seed': 'd_000000000000000000000000787436', 'verkey': '4h58ZPfCqzAPGmmQnZvNyKqm5MC1nT87wGdrbwXp6tEm'}[0m
+[0m[0m[?7h[0mFaber      | [0;34mRegistered DID: 7mmUFJFq1ZBymMaznSuTXp[0m
+[0m[0m[?7h[0mAlice      | [0;34m['/home/indy/.pyenv/versions/3.6.13/bin/python', '-m', 'aries_cloudagent', 'start', '--endpoint', 'http://192.168.65.6:8050', '--label', 'Alice', '--auto-ping-connection', '--auto-respond-messages', '--inbound-transport', 'http', '0.0.0.0', '8050', '--outbound-transport', 'http', '--admin', '0.0.0.0', '8051', '--admin-insecure-mode', '--wallet-type', 'indy', '--wallet-name', 'alice179080', '--wallet-key', 'Alice179080', '--preserve-exchange-records', '--auto-provision', '--genesis-transactions', '{"reqSignature":{},"txn":{"data":{"data":{"alias":"Node1","blskey":"4N8aUNHSgjQVgkpm8nhNEfDf6txHznoYREg9kirmJrkivgL4oSEimFF6nsQ6M41QvhM2Z33nves5vfSn9n1UwNFJBYtWVnHYMATn76vLuL3zU88KyeAYcHfsih3He6UHcXDxcaecHVz6jhCYz1P2UZn2bDVruL5wXpehgBfBaLKm3Ba","blskey_pop":"RahHYiCvoNCtPTrVtP7nMC5eTYrsUA8WjXbdhNc8debh1agE9bGiJxWBXYNFbnJXoXhWFMvyqhqhRoq737YQemH5ik9oL7R4NTTCz2LEZhkgLJzB3QRQqJyBNyv7acbdHrAT8nQ9UkLbaVL9NBpnWXBTw4LEMePaSHEw66RzPNdAX1","client_ip":"192.168.65.6","client_port":9702,"node_ip":"192.168.65.6","node_port":9701,"services":["VALIDATOR"]},"dest":"Gw6pDLhcBcoQesN72qfotTgFa7cbuqZpkX3Xo6pLhPhv"},"metadata":{"from":"Th7MpTaRZVRYnPiabds81Y"},"type":"0"},"txnMetadata":{"seqNo":1,"txnId":"fea82e10e894419fe2bea7d96296a6d46f50f93f9eeda954ec461b2ed2950b62"},"ver":"1"}\n{"reqSignature":{},"txn":{"data":{"data":{"alias":"Node2","blskey":"37rAPpXVoxzKhz7d9gkUe52XuXryuLXoM6P6LbWDB7LSbG62Lsb33sfG7zqS8TK1MXwuCHj1FKNzVpsnafmqLG1vXN88rt38mNFs9TENzm4QHdBzsvCuoBnPH7rpYYDo9DZNJePaDvRvqJKByCabubJz3XXKbEeshzpz4Ma5QYpJqjk","blskey_pop":"Qr658mWZ2YC8JXGXwMDQTzuZCWF7NK9EwxphGmcBvCh6ybUuLxbG65nsX4JvD4SPNtkJ2w9ug1yLTj6fgmuDg41TgECXjLCij3RMsV8CwewBVgVN67wsA45DFWvqvLtu4rjNnE9JbdFTc1Z4WCPA3Xan44K1HoHAq9EVeaRYs8zoF5","client_ip":"192.168.65.6","client_port":9704,"node_ip":"192.168.65.6","node_port":9703,"services":["VALIDATOR"]},"dest":"8ECVSk179mjsjKRLWiQtssMLgp6EPhWXtaYyStWPSGAb"},"metadata":{"from":"EbP4aYNeTHL6q385GuVpRV"},"type":"0"},"txnMetadata":{"seqNo":2,"txnId":"1ac8aece2a18ced660fef8694b61aac3af08ba875ce3026a160acbc3a3af35fc"},"ver":"1"}\n{"reqSignature":{},"txn":{"data":{"data":{"alias":"Node3","blskey":"3WFpdbg7C5cnLYZwFZevJqhubkFALBfCBBok15GdrKMUhUjGsk3jV6QKj6MZgEubF7oqCafxNdkm7eswgA4sdKTRc82tLGzZBd6vNqU8dupzup6uYUf32KTHTPQbuUM8Yk4QFXjEf2Usu2TJcNkdgpyeUSX42u5LqdDDpNSWUK5deC5","blskey_pop":"QwDeb2CkNSx6r8QC8vGQK3GRv7Yndn84TGNijX8YXHPiagXajyfTjoR87rXUu4G4QLk2cF8NNyqWiYMus1623dELWwx57rLCFqGh7N4ZRbGDRP4fnVcaKg1BcUxQ866Ven4gw8y4N56S5HzxXNBZtLYmhGHvDtk6PFkFwCvxYrNYjh","client_ip":"192.168.65.6","client_port":9706,"node_ip":"192.168.65.6","node_port":9705,"services":["VALIDATOR"]},"dest":"DKVxG2fXXTU8yT5N7hGEbXB3dfdAnYv1JczDUHpmDxya"},"metadata":{"from":"4cU41vWW82ArfxJxHkzXPG"},"type":"0"},"txnMetadata":{"seqNo":3,"txnId":"7e9f355dffa78ed24668f0e0e369fd8c224076571c51e2ea8be5f26479edebe4"},"ver":"1"}\n{"reqSignature":{},"txn":{"data":{"data":{"alias":"Node4","blskey":"2zN3bHM1m4rLz54MJHYSwvqzPchYp8jkHswveCLAEJVcX6Mm1wHQD1SkPYMzUDTZvWvhuE6VNAkK3KxVeEmsanSmvjVkReDeBEMxeDaayjcZjFGPydyey1qxBHmTvAnBKoPydvuTAqx5f7YNNRAdeLmUi99gERUU7TD8KfAa6MpQ9bw","blskey_pop":"RPLagxaR5xdimFzwmzYnz4ZhWtYQEj8iR5ZU53T2gitPCyCHQneUn2Huc4oeLd2B2HzkGnjAff4hWTJT6C7qHYB1Mv2wU5iHHGFWkhnTX9WsEAbunJCV2qcaXScKj4tTfvdDKfLiVuU2av6hbsMztirRze7LvYBkRHV3tGwyCptsrP","client_ip":"192.168.65.6","client_port":9708,"node_ip":"192.168.65.6","node_port":9707,"services":["VALIDATOR"]},"dest":"4PS3EDQ3dW1tci1Bp6543CfuuebjFrg36kLAUcskGfaA"},"metadata":{"from":"TWwCRQRZ2ZHMJFn9TzLp7W"},"type":"0"},"txnMetadata":{"seqNo":4,"txnId":"aa5e817d7cc626170eca175822029339a444eb0ee8f0bd20d3b0b76e566fb008"},"ver":"1"}\n', '--timing-log', 'logs/alice_perf.log', '--webhook-url', 'http://192.168.65.6:8052/webhooks', '--trace-target', 'log', '--trace-tag', 'acapy.events', '--trace-label', 'Alice.trace', '--auto-accept-invites', '--auto-accept-requests', '--auto-respond-credential-offer', '--auto-store-credential', '--monitor-ping'][0m
+[0mAlice      | 
+Alice      | ::::::::::::::::::::::::::::::::::::::::::::::
+Alice      | :: Alice                                    ::
+Alice      | ::                                          ::
+Alice      | ::                                          ::
+Alice      | :: Inbound Transports:                      ::
+Alice      | ::                                          ::
+Alice      | ::   - http://0.0.0.0:8050                  ::
+Alice      | ::                                          ::
+Alice      | :: Outbound Transports:                     ::
+Alice      | ::                                          ::
+Alice      | ::   - http                                 ::
+Alice      | ::   - https                                ::
+Alice      | ::                                          ::
+Alice      | :: Administration API:                      ::
+Alice      | ::                                          ::
+Alice      | ::   - http://0.0.0.0:8051                  ::
+Alice      | ::                                          ::
+Alice      | ::                               ver: 0.6.0 ::
+Alice      | ::::::::::::::::::::::::::::::::::::::::::::::
+Alice      | 
+Alice      | Listening...
+Alice      | 
+[0m[?7h[0mFaber      | [0;34m['/home/indy/.pyenv/versions/3.6.13/bin/python', '-m', 'aries_cloudagent', 'start', '--endpoint', 'http://192.168.65.6:8053', '--label', 'Faber', '--auto-ping-connection', '--auto-respond-messages', '--inbound-transport', 'http', '0.0.0.0', '8053', '--outbound-transport', 'http', '--admin', '0.0.0.0', '8054', '--admin-insecure-mode', '--wallet-type', 'indy', '--wallet-name', 'faber787436', '--wallet-key', 'Faber787436', '--preserve-exchange-records', '--auto-provision', '--genesis-transactions', '{"reqSignature":{},"txn":{"data":{"data":{"alias":"Node1","blskey":"4N8aUNHSgjQVgkpm8nhNEfDf6txHznoYREg9kirmJrkivgL4oSEimFF6nsQ6M41QvhM2Z33nves5vfSn9n1UwNFJBYtWVnHYMATn76vLuL3zU88KyeAYcHfsih3He6UHcXDxcaecHVz6jhCYz1P2UZn2bDVruL5wXpehgBfBaLKm3Ba","blskey_pop":"RahHYiCvoNCtPTrVtP7nMC5eTYrsUA8WjXbdhNc8debh1agE9bGiJxWBXYNFbnJXoXhWFMvyqhqhRoq737YQemH5ik9oL7R4NTTCz2LEZhkgLJzB3QRQqJyBNyv7acbdHrAT8nQ9UkLbaVL9NBpnWXBTw4LEMePaSHEw66RzPNdAX1","client_ip":"192.168.65.6","client_port":9702,"node_ip":"192.168.65.6","node_port":9701,"services":["VALIDATOR"]},"dest":"Gw6pDLhcBcoQesN72qfotTgFa7cbuqZpkX3Xo6pLhPhv"},"metadata":{"from":"Th7MpTaRZVRYnPiabds81Y"},"type":"0"},"txnMetadata":{"seqNo":1,"txnId":"fea82e10e894419fe2bea7d96296a6d46f50f93f9eeda954ec461b2ed2950b62"},"ver":"1"}\n{"reqSignature":{},"txn":{"data":{"data":{"alias":"Node2","blskey":"37rAPpXVoxzKhz7d9gkUe52XuXryuLXoM6P6LbWDB7LSbG62Lsb33sfG7zqS8TK1MXwuCHj1FKNzVpsnafmqLG1vXN88rt38mNFs9TENzm4QHdBzsvCuoBnPH7rpYYDo9DZNJePaDvRvqJKByCabubJz3XXKbEeshzpz4Ma5QYpJqjk","blskey_pop":"Qr658mWZ2YC8JXGXwMDQTzuZCWF7NK9EwxphGmcBvCh6ybUuLxbG65nsX4JvD4SPNtkJ2w9ug1yLTj6fgmuDg41TgECXjLCij3RMsV8CwewBVgVN67wsA45DFWvqvLtu4rjNnE9JbdFTc1Z4WCPA3Xan44K1HoHAq9EVeaRYs8zoF5","client_ip":"192.168.65.6","client_port":9704,"node_ip":"192.168.65.6","node_port":9703,"services":["VALIDATOR"]},"dest":"8ECVSk179mjsjKRLWiQtssMLgp6EPhWXtaYyStWPSGAb"},"metadata":{"from":"EbP4aYNeTHL6q385GuVpRV"},"type":"0"},"txnMetadata":{"seqNo":2,"txnId":"1ac8aece2a18ced660fef8694b61aac3af08ba875ce3026a160acbc3a3af35fc"},"ver":"1"}\n{"reqSignature":{},"txn":{"data":{"data":{"alias":"Node3","blskey":"3WFpdbg7C5cnLYZwFZevJqhubkFALBfCBBok15GdrKMUhUjGsk3jV6QKj6MZgEubF7oqCafxNdkm7eswgA4sdKTRc82tLGzZBd6vNqU8dupzup6uYUf32KTHTPQbuUM8Yk4QFXjEf2Usu2TJcNkdgpyeUSX42u5LqdDDpNSWUK5deC5","blskey_pop":"QwDeb2CkNSx6r8QC8vGQK3GRv7Yndn84TGNijX8YXHPiagXajyfTjoR87rXUu4G4QLk2cF8NNyqWiYMus1623dELWwx57rLCFqGh7N4ZRbGDRP4fnVcaKg1BcUxQ866Ven4gw8y4N56S5HzxXNBZtLYmhGHvDtk6PFkFwCvxYrNYjh","client_ip":"192.168.65.6","client_port":9706,"node_ip":"192.168.65.6","node_port":9705,"services":["VALIDATOR"]},"dest":"DKVxG2fXXTU8yT5N7hGEbXB3dfdAnYv1JczDUHpmDxya"},"metadata":{"from":"4cU41vWW82ArfxJxHkzXPG"},"type":"0"},"txnMetadata":{"seqNo":3,"txnId":"7e9f355dffa78ed24668f0e0e369fd8c224076571c51e2ea8be5f26479edebe4"},"ver":"1"}\n{"reqSignature":{},"txn":{"data":{"data":{"alias":"Node4","blskey":"2zN3bHM1m4rLz54MJHYSwvqzPchYp8jkHswveCLAEJVcX6Mm1wHQD1SkPYMzUDTZvWvhuE6VNAkK3KxVeEmsanSmvjVkReDeBEMxeDaayjcZjFGPydyey1qxBHmTvAnBKoPydvuTAqx5f7YNNRAdeLmUi99gERUU7TD8KfAa6MpQ9bw","blskey_pop":"RPLagxaR5xdimFzwmzYnz4ZhWtYQEj8iR5ZU53T2gitPCyCHQneUn2Huc4oeLd2B2HzkGnjAff4hWTJT6C7qHYB1Mv2wU5iHHGFWkhnTX9WsEAbunJCV2qcaXScKj4tTfvdDKfLiVuU2av6hbsMztirRze7LvYBkRHV3tGwyCptsrP","client_ip":"192.168.65.6","client_port":9708,"node_ip":"192.168.65.6","node_port":9707,"services":["VALIDATOR"]},"dest":"4PS3EDQ3dW1tci1Bp6543CfuuebjFrg36kLAUcskGfaA"},"metadata":{"from":"TWwCRQRZ2ZHMJFn9TzLp7W"},"type":"0"},"txnMetadata":{"seqNo":4,"txnId":"aa5e817d7cc626170eca175822029339a444eb0ee8f0bd20d3b0b76e566fb008"},"ver":"1"}\n', '--seed', 'd_000000000000000000000000787436', '--webhook-url', 'http://192.168.65.6:8055/webhooks', '--trace-target', 'log', '--trace-tag', 'acapy.events', '--trace-label', 'Faber.trace', '--auto-accept-invites', '--auto-accept-requests', '--monitor-ping'][0m
+[0mFaber      | 
+Faber      | ::::::::::::::::::::::::::::::::::::::::::::::
+Faber      | :: Faber                                    ::
+Faber      | ::                                          ::
+Faber      | ::                                          ::
+Faber      | :: Inbound Transports:                      ::
+Faber      | ::                                          ::
+Faber      | ::   - http://0.0.0.0:8053                  ::
+Faber      | ::                                          ::
+Faber      | :: Outbound Transports:                     ::
+Faber      | ::                                          ::
+Faber      | ::   - http                                 ::
+Faber      | ::   - https                                ::
+Faber      | ::                                          ::
+Faber      | :: Public DID Information:                  ::
+Faber      | ::                                          ::
+Faber      | ::   - DID: 7mmUFJFq1ZBymMaznSuTXp          ::
+Faber      | ::                                          ::
+Faber      | :: Administration API:                      ::
+Faber      | ::                                          ::
+Faber      | ::   - http://0.0.0.0:8054                  ::
+Faber      | ::                                          ::
+Faber      | ::                               ver: 0.6.0 ::
+Faber      | ::::::::::::::::::::::::::::::::::::::::::::::
+Faber      | 
+Faber      | Listening...
+Faber      | 
+[0m[?7h[0;35mStartup duration: 8.06s[0m
+[0m[0m[?7h[0mFaber      | [0;34mConnected[0m
+[0m[0m[?7h[0;35mConnect duration: 0.19s[0m
+[0m[0m[?7h[0mFaber      | [0;34mPublishing test schema[0m
+[0m[0m[?7h[0mAlice      | [0;34mConnected[0m
+[0m[0m[?7h[0mFaber      | [0;34mSchema ID: 7mmUFJFq1ZBymMaznSuTXp:2:degree schema:56.96.101[0m
+[0m[0m[?7h[0mFaber      | [0;34mPublishing test credential definition[0m
+[0m[0m[?7h[0mFaber      | [0;34mCredential Definition ID: 7mmUFJFq1ZBymMaznSuTXp:3:CL:466:default[0m
+[0m[0m[?7h[0;35mPublish duration: 11.66s[0m
+[0m[?1l[6n[?2004h[?25l[0m[?7l[0m[J[0mIssuing credentials[2C [0m  0.0% [0m[>                          ] [0m  0/[0m1000[C [0meta [None][79C [0m
+[0mReceiving credentials   0.0% [>                          ]   0/1000  eta [None][79C [A[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[56C[0m] [0m [C0/[0m10[2C  [0meta [ [0m
+[26C[0m2[29C]  [C2/10[2C  eta [25:29[A[78D[?7h[0m[?25l[?7l[0m
+[74C[0m7[C15[A[78D[?7h[0m[?25l[?7l[0m
+[74C[0m9[C4[A[77D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[13C0[C06[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[12C15[C17[A[78D[?7h[0m[?25l[?7l[0m
+[74C[0m6[C05[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[13C3[C10[A[78D[?7h[0m[?25l[?7l[0m
+[76C[0m51[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[13C1[C40[A[78D[?7h[0m[?25l[?7l[0m
+[74C[0m2[C22[A[78D[?7h[0m[?25l[?7l[0m
+[74C[0m3[C1[A[77D[?7h[0m[?25l[?7l[0m
+[74C[0m4[C0[A[77D[?7h[0m[?25l[?7l[0m
+[76C[0m53[A[78D[?7h[0m[?25l[?7l[0m
+[74C[0m5[C4[A[77D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[13C3[A[75D[?7h[0m[?25l[?7l[26C[0m2[33C2[12C49:39[0m
+[74C[0m4[C07[A[78D[?7h[0m[?25l[?7l[73C[0m50[C04[0m
+[76C[0m14[A[78D[?7h[0m[?25l[?7l[74C[0m2[C20[0m
+[76C[0m52[A[78D[?7h[0m[?25l[?7l[74C[0m4[C5[0m
+[74C[0m5[C35[A[78D[?7h[0m[?25l[?7l[74C[0m5[C46[0m
+[26C[0m8[33C8[13C3[C51[A[78D[?7h[0m[?25l[?7l[74C[0m6[C11[0m
+[26C[0m9[33C9[13C2[C24[A[78D[?7h[0m[?25l[?7l[76C[0m36[0m
+[24C[0m1[C1[32C11[13C0[C12[A[78D[?7h[0m[?25l[?7l[74C[0m7[C20[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[12C38[C34[0m
+[76C[0m26[A[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[12C19[C23[0m
+[26C[0m3[33C3[12C08[C53[A[78D[?7h[0m[?25l[?7l[76C[0m51[0m
+[74C[0m9[C06[A[78D[?7h[0m[?25l[?7l[73C[0m20[C06[0m
+[26C[0m4[33C4[13C8[C33[A[78D[?7h[0m[?25l[?7l[76C[0m15[0m
+[26C[0m5[33C5[15C01[A[78D[?7h[0m[?25l[?7l[76C[0m24[0m
+[26C[0m7[33C7[13C7[2C7[A[78D[?7h[0m[?25l[?7l[76C[0m41[0m
+[76C[0m13[A[78D[?7h[0m[?25l[?7l[74C[0m1[C3[0m
+[76C[0m30[A[78D[?7h[0m[?25l[?7l[76C[0m42[0m
+[26C[0m8[33C8[15C08[A[78D[?7h[0m[?25l[?7l[76C[0m51[0m
+[26C[0m9[33C9[13C6[C4[A[77D[?7h[0m[?25l[?7l[74C[0m2[C04[0m
+[24C[0m2[C1[32C21[15C12[A[78D[?7h[0m[?25l[?7l[76C[0m13[0m
+[26C[0m4[33C4[13C5[C27[A[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[12C19[C09[0m
+[24C[0m3[C0[32C30[13C4[2C2[A[78D[?7h[0m[?25l[?7l[76C[0m18[0m
+[26C[0m1[33C1[15C15[A[78D[?7h[0m[?25l[?7l[76C[0m25[0m
+[26C[0m2[33C2[15C08[A[78D[?7h[0m[?25l[?7l[76C[0m52[0m
+[76C[0m14[A[78D[?7h[0m[?25l[?7l[73C[0m20[C34[0m
+[76C[0m23[A[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[12C18[C2[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[24C[0m1[C0[32C10[13C4[C47[0m
+[76C[0m31[A[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[13C3[C31[0m
+[26C[0m3[33C3[15C24[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[13C2[C27[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[76C[0m39[0m
+[26C[0m4[33C4[16C2[A[78D[?7h[0m[?25l[?7l[76C[0m45[0m
+[26C[0m5[33C5[15C16[A[78D[?7h[0m[?25l[?7l[76C[0m50[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[77C[0m9[0m
+[26C[0m6[33C6[16C3[A[78D[?7h[0m[?25l[?7l[74C[0m3[C03[0m
+[26C[0m8[33C8[15C00[A[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[26C[0m9[33C9[13C3[C55[A[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[13C2[C10[0m
+[24C[0m4[C2[3C=>[27C42[15C39[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[13C1[C25[0m
+[76C[0m42[A[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[13C0[C42[0m
+[26C[0m3[33C3[15C37[A[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[12C09[C28[0m
+[26C[0m4[33C4[16C3[A[78D[?7h[0m[?25l[?7l[76C[0m32[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[15C03[0m
+[77C[0m6[A[78D[?7h[0m[?25l[?7l[76C[0m10[0m
+[26C[0m5[33C5[16C4[A[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[13C8[C44[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[77C[0m6[A[78D[?7h[0m[?25l[?7l[24C[0m2[C0[32C20[15C22[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[77C[0m6[0m
+[26C[0m6[33C6[16C4[A[78D[?7h[0m[?25l[?7l[76C[0m34[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[76C[0m49[0m
+[76C[0m44[A[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[15C33[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[15C11[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[13C7[C5[0m
+[76C[0m50[A[78D[?7h[0m[?25l[?7l[77C[0m4[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[77C[0m6[0m
+[26C[0m7[33C7[15C47[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[15C39[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[15C22[0m
+[76C[0m50[A[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[13C6[C50[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[15C37[0m
+[26C[0m9[33C9[15C42[A[78D[?7h[0m[?25l[?7l[24C[0m3[C2[32C32[13C5[C4[0m
+[24C[0m5[C0[32C50[15C38[A[78D[?7h[0m[?25l[?7l[77C[0m9[0m
+[26C[0m2[33C2[16C0[A[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C2[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[15C23[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[15C15[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[15C07[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C1[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[77C[0m4[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[13C4[C57[0m
+[76C[0m40[A[78D[?7h[0m[?25l[?7l[24C[0m4[C0[3C=>[27C40[16C1[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[77C[0m2[0m
+[26C[0m3[33C3[15C37[A[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[15C46[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C0[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[15C28[0m
+[76C[0m40[A[78D[?7h[0m[?25l[?7l[76C[0m30[0m
+[26C[0m4[33C4[15C37[A[78D[?7h[0m[?25l[?7l[77C[0m1[0m
+[26C[0m5[33C5[16C5[A[78D[?7h[0m[?25l[?7l[77C[0m2[0m
+[26C[0m6[33C6[16C1[A[78D[?7h[0m[?25l[?7l[77C[0m4[0m
+[24C[0m6[C1[32C61[15C14[A[78D[?7h[0m[?25l[?7l[77C[0m5[78D[?7h[0m[?25l[?7l[77C[0m6[0m
+[26C[0m2[33C2[16C2[A[78D[?7h[0m[?25l[?7l[76C[0m40[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[15C36[0m
+[77C[0m6[A[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[15C19[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[76C[0m22[0m
+[76C[0m20[A[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C1[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[24C[0m5[C1[32C51[15C1[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[77C[0m2[0m
+[77C[0m5[A[78D[?7h[0m[J[0m[?7h[?2004l[?1l[0m[?7h[0mFaber      | [0;34mStarted 100 credential exchanges in 13.68s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0mIssuing credentials[2C [0m  5.1% [0m[=>                        ] [0m 51/[0m1000[C [0meta [04:13][79C [0m
+[0mReceiving credentials   6.2% [=>                        ]  62/1000  eta [03:26][79C [A[?7h[0m[?25l[?7l[77C[0m4[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[77C[0m8[0m
+[26C[0m3[33C3[16C6[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C7[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[77C[0m8[0m
+[76C[0m30[A[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C4[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[77C[0m6[0m
+[26C[0m4[33C4[16C0[A[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[15C07[0m
+[26C[0m5[33C5[15C27[A[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[13C3[C55[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C2[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[24C[0m6[C0[32C60[15C49[0m
+[26C[0m6[33C6[16C6[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C1[A[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[16C6[0m
+[24C[0m7[C1[32C71[15C12[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C3[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[77C[0m4[0m
+[26C[0m2[33C2[16C1[A[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C5[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[76C[0m52[0m
+[76C[0m21[A[78D[?7h[0m[?25l[?7l[77C[0m6[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[74C[0m4[C01[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[13C3[C54[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[15C47[0m
+[76C[0m30[A[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C1[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[77C[0m3[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[77C[0m6[A[78D[?7h[0m[?25l[?7l[24C[0m7[C0[32C70[16C4[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[16C1[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[77C[0m4[0m
+[76C[0m40[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C2[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[77C[0m3[0m
+[26C[0m3[33C3[16C0[A[78D[?7h[0m[?25l[?7l[77C[0m4[0m
+[26C[0m4[33C4[15C37[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[16C5[A[78D[?7h[0m[?25l[?7l[77C[0m5[0m
+[26C[0m6[33C6[16C2[A[78D[?7h[0m[?25l[?7l[77C[0m6[0m
+[26C[0m7[33C7[16C0[A[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[26C[0m8[33C8[15C28[A[78D[?7h[0m[?25l[?7l[77C[0m8[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[76C[0m50[0m
+[26C[0m9[33C9[16C8[A[78D[?7h[0m[?25l[?7l[77C[0m1[0m
+[24C[0m8[C0[4C=>[26C80[16C6[A[78D[?7h[0m[?25l[?7l[77C[0m2[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[77C[0m3[0m
+[26C[0m1[33C1[16C5[A[78D[?7h[0m[?25l[?7l[77C[0m5[0m
+[26C[0m2[33C2[16C4[A[78D[?7h[0m[?25l[?7l[77C[0m6[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[15C47[0m
+[77C[0m6[A[78D[?7h[0m[?25l[?7l[77C[0m8[0m
+[26C[0m3[33C3[16C4[A[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C3[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m6[A[78D[?7h[0m[?25l[?7l[77C[0m4[0m
+[26C[0m5[33C5[16C1[A[78D[?7h[0m[?25l[?7l[77C[0m5[0m
+[26C[0m6[33C6[16C0[A[78D[?7h[0m[?25l[?7l[77C[0m6[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[26C[0m7[33C7[15C19[A[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C5[0m
+[26C[0m8[33C8[16C7[A[78D[?7h[0m[?25l[?7l[24C[0m8[C0[4C=>[26C80[15C39[0m
+[26C[0m9[33C9[16C5[A[78D[?7h[0m[?25l[?7l[76C[0m40[0m
+[24C[0m9[C0[32C90[16C3[A[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[15C37[0m
+[26C[0m1[33C1[16C1[A[78D[?7h[0m[?25l[?7l[77C[0m8[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C7[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[77C[0m8[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[76C[0m42[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[77C[0m4[0m
+[26C[0m2[33C2[16C7[A[78D[?7h[0m[?25l[?7l[77C[0m5[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C3[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C0[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[15C35[0m
+[76C[0m20[A[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C5[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C4[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[77C[0m5[78D[?7h[0m[?25l[?7l[24C[0m9[C0[32C90[16C0[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[77C[0m2[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[77C[0m4[0m
+[26C[0m3[33C3[16C6[A[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[16C2[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[77C[0m3[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C6[A[78D[?7h[0m[?25l[?7l[77C[0m4[0m
+[26C[0m5[33C5[16C4[A[78D[?7h[0m[?25l[?7l[77C[0m6[0m
+[77C[0m6[A[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[26C[0m6[33C6[16C4[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[16C3[A[78D[?7h[0m[?25l[?7l[77C[0m9[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C7[78D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C3[A[78D[?7h[0m[?25l[?7l[77C[0m8[0m
+[26C[0m9[33C9[16C1[A[78D[?7h[0m[?25l[?7l[77C[0m9[0m
+[23C[0m10[C0[31C100[15C19[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[16C8[A[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C8[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[16C7[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C6[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[77C[0m7[78D[?7h[0m[?25l[?7l[77C[0m8[0m
+[26C[0m3[33C3[16C7[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[16C3[A[78D[?7h[0m[?25l[?7l[77C[0m9[0m
+[26C[0m6[33C6[16C1[A[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[16C7[0m
+[26C[0m8[33C8[15C08[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m6[33C6[0m
+[76C[0m10[A[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C5[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C4[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C3[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[23C[0m10[C0[31C100[16C1[0m
+[26C[0m9[33C9[16C2[A[78D[?7h[0m[?25l[?7l[77C[0m2[0m
+[24C[0m1[C0[32C10[16C1[A[78D[?7h[0m[?25l[?7l[77C[0m3[0m
+[26C[0m1[33C1[15C09[A[78D[?7h[0m[?25l[?7l[0m
+[76C[0m10[A[78D[?7h[0m[?25l[?7l[77C[0m6[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[26C[0m2[33C2[16C1[A[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[16C5[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C4[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[15C29[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[16C8[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C4[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C3[78D[?7h[0m[?25l[?7l[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[77C[0m4[0m
+[26C[0m3[33C3[16C4[A[78D[?7h[0m[?25l[?7l[77C[0m6[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[77C[0m8[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[76C[0m31[0m
+[76C[0m20[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[15C19[A[78D[?7h[0m[?25l[?7l[77C[0m3[0m
+[26C[0m5[33C5[16C8[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m4[0m
+[26C[0m6[33C6[16C7[A[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C2[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[24C[0m1[C0[32C10[16C1[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[15C27[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C5[78D[?7h[0m[?25l[?7l[77C[0m6[0m
+[26C[0m7[33C7[16C8[A[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[26C[0m8[33C8[16C7[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m2[C0[5C=>[25C20[16C4[A[78D[?7h[0m[?25l[?7l[77C[0m8[0m
+[26C[0m1[33C1[16C2[A[78D[?7h[0m[?25l[?7l[76C[0m30[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[15C28[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[77C[0m9[0m
+[26C[0m4[33C4[16C0[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[15C08[A[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[16C7[0m
+[26C[0m6[33C6[16C7[A[78D[?7h[0m[?25l[?7l[77C[0m8[78D[?7h[0m[?25l[?7l[77C[0m9[0m
+[26C[0m7[33C7[16C6[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C5[A[78D[?7h[0m[?25l[?7l[76C[0m30[0m
+[24C[0m3[C0[32C30[16C2[A[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[15C28[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[76C[0m30[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[77C[0m1[0m
+[26C[0m1[33C2[16C2[A[78D[?7h[0m[?25l[?7l[77C[0m2[0m
+[26C[0m2[50C3[A[78D[?7h[0m[?25l[?7l[77C[0m3[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C1[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[15C29[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C8[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[24C[0m2[C1[5C=>[25C21[16C5[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C2[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[16C1[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C4[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[15C17[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[77C[0m8[78D[?7h[0m[?25l[?7l[77C[0m9[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C8[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C5[78D[?7h[0m[?25l[?7l[24C[0m3[C0[32C30[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m7[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[16C6[A[78D[?7h[0m[?25l[?7l[77C[0m8[0m
+[26C[0m9[33C9[16C3[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m4[C1[32C41[16C0[A[78D[?7h[0m[?25l[?7l[77C[0m9[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C6[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C5[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[77C[0m6[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C5[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[77C[0m6[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[16C3[A[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C1[A[78D[?7h[0m[?25l[?7l[77C[0m8[0m
+[26C[0m5[33C5[16C0[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[76C[0m20[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[15C18[78D[?7h[0m[?25l[?7l[77C[0m9[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[76C[0m20[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[15C19[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[76C[0m20[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[77C[0m1[0m
+[26C[0m7[33C7[16C3[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C2[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m5[C1[32C51[13C2[C58[A[78D[?7h[0m[?25l[?7l[77C[0m2[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C1[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[15C19[78D[?7h[0m[?25l[?7l[24C[0m4[C0[32C40[16C6[0m
+[74C[0m3[C00[A[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[16C5[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C2[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C1[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[77C[0m2[0m
+[26C[0m3[33C3[13C2[C58[A[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[16C1[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m2[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C1[78D[?7h[0m[?25l[?7l[0m
+[74C[0m3[C00[A[78D[?7h[0m[?25l[?7l[77C[0m2[0m
+[26C[0m5[33C5[13C2[C59[A[78D[?7h[0m[?25l[?7l[77C[0m3[0m
+[74C[0m3[C00[A[78D[?7h[0m[?25l[?7l[77C[0m4[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[77C[0m5[78D[?7h[0m[J[0m[?7h[?2004l[?1l[0m[?7h[0mFaber      | [0;34mStarted 100 credential exchanges in 19.97s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0mIssuing credentials[2C [0m 14.6% [0m[===>                      ] [0m146/[0m1000[C [0meta [03:16][79C [0m
+[0mReceiving credentials  15.6% [===>                      ] 156/1000  eta [03:01][79C [A[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[26C[0m7[33C7[16C1[A[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C6[0m
+[26C[0m8[33C8[16C0[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m6[C1[6C=>[24C61[13C2[C56[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m9[33C9[16C4[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[24C[0m5[C1[32C51[16C2[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C0[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[15C09[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C8[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[77C[0m9[0m
+[26C[0m2[33C2[16C8[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[76C[0m10[0m
+[26C[0m3[33C3[16C7[A[78D[?7h[0m[?25l[?7l[77C[0m1[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m3[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[16C2[78D[?7h[0m[?25l[?7l[77C[0m3[0m
+[74C[0m3[C00[A[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C2[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[77C[0m3[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[16C1[A[78D[?7h[0m[?25l[?7l[77C[0m4[0m
+[26C[0m7[33C7[13C2[C59[A[78D[?7h[0m[?25l[?7l[77C[0m5[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C4[0m
+[74C[0m3[C00[A[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C3[78D[?7h[0m[?25l[?7l[24C[0m6[C1[6C=>[24C61[15C09[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m7[C0[32C70[13C2[C57[A[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C6[0m
+[26C[0m1[33C1[16C6[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C5[78D[?7h[0m[?25l[?7l[77C[0m6[0m
+[26C[0m3[33C3[16C4[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[26C[0m4[33C4[16C4[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[16C3[A[78D[?7h[0m[?25l[?7l[77C[0m8[0m
+[26C[0m7[33C7[16C1[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m9[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[76C[0m10[0m
+[26C[0m9[33C9[16C1[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m8[C0[32C80[16C0[A[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[15C09[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C7[78D[?7h[0m[?25l[?7l[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C6[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C5[78D[?7h[0m[?25l[?7l[24C[0m7[C0[32C70[16C4[0m
+[26C[0m1[33C1[16C0[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[77C[0m6[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[16C5[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C4[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C3[78D[?7h[0m[?25l[?7l[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[16C3[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[77C[0m5[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[77C[0m6[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m5[33C5[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C5[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C4[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[61D[?7h[0m[?25l[?7l[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C7[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[16C4[A[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C3[0m
+[26C[0m8[33C8[16C3[A[78D[?7h[0m[?25l[?7l[24C[0m8[C0[32C80[61D[?7h[0m[?25l[?7l[0m
+[24C[0m9[C1[32C91[16C0[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m1[33C1[16C2[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[15C49[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C1[0m
+[76C[0m50[A[78D[?7h[0m[?25l[?7l[77C[0m2[78D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[15C49[A[78D[?7h[0m[?25l[?7l[77C[0m3[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[16C8[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m4[0m
+[26C[0m6[33C6[16C7[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C6[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m5[0m
+[26C[0m9[33C9[A[61D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C4[78D[?7h[0m[?25l[?7l[0m
+[23C[0m20[C0[7C=>[22C200[16C5[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C3[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m8[33C8[13C2[C59[0m
+[77C[0m6[A[78D[?7h[0m[?25l[?7l[74C[0m3[C00[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[16C6[A[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[61D[?7h[0m[?25l[?7l[24C[0m9[C0[32C90[13C2[C59[78D[?7h[0m[?25l[?7l[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C8[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C7[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C6[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m7[0m
+[76C[0m50[A[78D[?7h[0m[?25l[?7l[77C[0m8[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C6[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[77C[0m8[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C7[78D[?7h[0m[?25l[?7l[23C[0m20[C0[7C=>[22C200[61D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[26C[0m1[33C1[16C6[78D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[16C4[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m7[0m
+[26C[0m4[33C4[16C3[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C2[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m1[C0[32C10[15C48[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[16C7[A[78D[?7h[0m[?25l[?7l[77C[0m9[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[16C7[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[74C[0m3[C00[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[77C[0m1[0m
+[26C[0m5[33C5[16C6[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C0[0m
+[26C[0m6[33C6[16C5[A[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[13C2[C59[0m
+[24C[0m2[C0[32C20[16C1[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C8[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[77C[0m9[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[16C8[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[77C[0m9[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[74C[0m3[C00[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[13C2[C59[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C7[78D[?7h[0m[?25l[?7l[24C[0m1[C1[32C11[16C4[78D[?7h[0m[?25l[?7l[77C[0m5[0m
+[26C[0m1[33C1[A[61D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C4[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[0m
+[77C[0m6[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m5[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[77C[0m6[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[16C5[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C2[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C1[78D[?7h[0m[?25l[?7l[77C[0m2[0m
+[76C[0m50[A[78D[?7h[0m[?25l[?7l[24C[0m2[C0[32C20[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m1[33C1[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[16C1[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[77C[0m3[0m
+[26C[0m5[33C5[15C49[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C6[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[16C5[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m3[C1[32C31[16C4[A[78D[?7h[0m[?25l[?7l[77C[0m4[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[77C[0m5[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C3[A[78D[?7h[0m[?25l[?7l[77C[0m6[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[26C[0m5[33C5[16C3[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[16C1[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[0m
+[24C[0m4[C0[8C=>[22C40[15C39[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m2[33C2[0m
+[76C[0m40[A[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C6[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C3[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C2[78D[?7h[0m[?25l[?7l[24C[0m3[C1[32C31[15C49[78D[?7h[0m[?25l[?7l[76C[0m50[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[77C[0m1[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[A[61D[?7h[0m[?25l[?7l[77C[0m2[78D[?7h[0m[?25l[?7l[77C[0m3[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C1[78D[?7h[0m[?25l[?7l[77C[0m2[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C1[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[15C47[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[24C[0m4[C0[8C=>[22C40[16C6[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m1[33C1[0m
+[77C[0m6[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[16C5[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[16C4[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C2[A[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[26C[0m7[33C7[16C1[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[16C0[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m5[C0[32C50[15C39[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[16C8[A[78D[?7h[0m[?25l[?7l[77C[0m8[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[16C7[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[77C[0m9[0m
+[26C[0m5[33C5[16C6[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[76C[0m50[78D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[77C[0m1[0m
+[26C[0m9[33C9[16C5[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m6[C0[32C60[16C4[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m2[33C2[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[15C49[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C6[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[61D[?7h[0m[?25l[?7l[24C[0m5[C0[32C50[16C4[0m
+[77C[0m6[A[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[16C3[78D[?7h[0m[?25l[?7l[77C[0m4[78D[?7h[0m[J[0m[?7h[?2004l[?1l[0m[?7h[0mFaber      | [0;34mStarted 100 credential exchanges in 21.58s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0mIssuing credentials[2C [0m 25.1% [0m[======>                   ] [0m251/[0m1000[C [0meta [02:44][79C [0m
+[0mReceiving credentials  26.0% [======>                   ] 260/1000  eta [02:37][79C [A[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m5[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[77C[0m6[0m
+[26C[0m1[33C1[16C8[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C5[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C3[78D[?7h[0m[?25l[?7l[24C[0m6[C0[32C60[16C0[78D[?7h[0m[?25l[?7l[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[77C[0m1[78D[?7h[0m[?25l[?7l[77C[0m2[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[26C[0m1[33C1[16C1[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C7[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m7[C0[32C70[16C4[A[78D[?7h[0m[?25l[?7l[77C[0m2[0m
+[26C[0m1[33C1[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[16C3[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C2[A[78D[?7h[0m[?25l[?7l[77C[0m3[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C2[78D[?7h[0m[?25l[?7l[77C[0m3[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[77C[0m4[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[16C2[A[78D[?7h[0m[?25l[?7l[77C[0m5[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[0m
+[24C[0m8[C0[9C=>[21C80[16C0[A[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C4[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[16C3[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C0[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[24C[0m7[C1[32C71[15C38[78D[?7h[0m[?25l[?7l[77C[0m9[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[76C[0m40[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[15C39[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[76C[0m40[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[15C39[78D[?7h[0m[?25l[?7l[76C[0m40[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m6[A[78D[?7h[0m[?25l[?7l[77C[0m1[0m
+[26C[0m1[33C1[16C5[A[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[16C0[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[15C38[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[61D[?7h[0m[?25l[?7l[24C[0m8[C0[9C=>[21C80[16C6[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[16C4[A[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[26C[0m7[33C7[16C1[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[16C0[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m9[C0[32C90[15C29[A[78D[?7h[0m[?25l[?7l[0m
+[76C[0m30[A[78D[?7h[0m[?25l[?7l[77C[0m8[0m
+[26C[0m1[33C1[15C29[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[16C8[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m9[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[0m
+[76C[0m30[A[78D[?7h[0m[?25l[?7l[76C[0m40[78D[?7h[0m[?25l[?7l[77C[0m1[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[77C[0m2[0m
+[26C[0m5[33C5[16C0[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[0m
+[23C[0m30[C0[31C300[15C27[A[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[16C1[78D[?7h[0m[?25l[?7l[77C[0m2[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C1[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C0[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m5[33C5[15C39[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[24C[0m9[C1[32C91[16C5[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m6[0m
+[26C[0m1[33C1[16C8[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C5[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m6[0m
+[26C[0m2[33C2[16C8[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C7[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C6[A[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[77C[0m8[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C7[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m8[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[77C[0m9[0m
+[26C[0m7[33C7[16C8[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C8[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m1[C0[32C10[16C7[A[78D[?7h[0m[?25l[?7l[76C[0m40[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[15C39[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C8[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[23C[0m30[C0[31C300[16C5[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[61D[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[16C7[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C6[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m6[78D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m7[0m
+[26C[0m7[33C7[16C5[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[16C4[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m2[C0[10C=>[20C20[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C5[78D[?7h[0m[?25l[?7l[77C[0m6[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[16C5[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C4[78D[?7h[0m[?25l[?7l[77C[0m5[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C4[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C3[78D[?7h[0m[?25l[?7l[0m
+[77C[0m6[A[78D[?7h[0m[?25l[?7l[24C[0m1[C0[32C10[61D[?7h[0m[?25l[?7l[26C[0m1[33C1[16C2[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C1[0m
+[26C[0m1[33C1[16C6[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[77C[0m2[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C5[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[16C4[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[16C3[A[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C1[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C0[78D[?7h[0m[?25l[?7l[26C[0m8[33C9[15C29[78D[?7h[0m[?25l[?7l[26C[0m9[27D[?7h[0m[?25l[?7l[24C[0m2[C0[10C=>[20C20[61D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C3[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m3[C0[32C30[16C2[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[76C[0m30[78D[?7h[0m[?25l[?7l[77C[0m1[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[16C0[78D[?7h[0m[?25l[?7l[77C[0m1[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[0m
+[77C[0m6[A[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[16C0[0m
+[26C[0m2[33C2[16C5[A[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[15C29[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[76C[0m30[0m
+[77C[0m6[A[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[15C29[0m
+[26C[0m3[33C3[16C5[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[16C4[A[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[0m
+[26C[0m6[33C6[16C3[A[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C8[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[24C[0m3[C0[32C30[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[16C3[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[0m
+[24C[0m4[C0[32C40[16C2[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m9[78D[?7h[0m[?25l[?7l[76C[0m30[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[15C29[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C8[78D[?7h[0m[?25l[?7l[77C[0m9[0m
+[26C[0m1[33C1[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[76C[0m30[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[15C29[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m6[33C6[16C8[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m8[33C8[16C7[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[61D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m8[0m
+[77C[0m6[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[16C5[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C4[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[16C3[A[78D[?7h[0m[?25l[?7l[24C[0m4[C0[32C40[0m
+[26C[0m9[33C9[16C2[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m5[C0[32C50[16C1[A[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[16C7[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[77C[0m8[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m9[0m
+[26C[0m1[33C1[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[76C[0m30[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[15C29[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C7[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C1[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C0[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[A[61D[?7h[0m[?25l[?7l[26C[0m8[33C8[61D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C6[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[24C[0m5[C0[32C50[61D[?7h[0m[?25l[?7l[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C5[78D[?7h[0m[?25l[?7l[77C[0m6[78D[?7h[0m[?25l[?7l[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m6[C0[11C=>[19C60[16C1[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[A[61D[?7h[0m[J[0m[?7h[?2004l[?1l[0m[?7h[0mFaber      | [0;34mStarted 100 credential exchanges in 24.70s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0mIssuing credentials[2C [0m 35.2% [0m[========>                 ] [0m352/[0m1000[C [0meta [02:26][79C [0m
+[0mReceiving credentials  36.2% [=========>                ] 362/1000  eta [02:20][79C [A[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m7[78D[?7h[0m[?25l[?7l[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[77C[0m8[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C7[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m6[33C6[16C6[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C5[78D[?7h[0m[?25l[?7l[77C[0m6[78D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[16C1[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[26C[0m8[33C8[0m
+[26C[0m7[33C7[16C0[A[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C5[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m6[0m
+[26C[0m9[33C9[15C19[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m7[C0[32C70[A[61D[?7h[0m[?25l[?7l[24C[0m6[C0[11C=>[19C60[16C5[78D[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[16C8[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C4[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[77C[0m5[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C7[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m6[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[26C[0m3[33C3[0m
+[26C[0m7[33C7[16C7[A[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C3[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[16C6[A[78D[?7h[0m[?25l[?7l[77C[0m4[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C3[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[24C[0m7[C0[32C70[16C2[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[61D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C1[78D[?7h[0m[?25l[?7l[77C[0m2[78D[?7h[0m[?25l[?7l[0m
+[24C[0m8[C0[32C80[A[61D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C1[78D[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[A[61D[?7h[0m[?25l[?7l[77C[0m2[0m
+[26C[0m2[33C2[16C6[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m4[33C4[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[16C1[78D[?7h[0m[?25l[?7l[77C[0m2[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C6[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[26C[0m6[33C6[0m
+[26C[0m8[33C8[16C5[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[16C4[A[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C1[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[61D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C0[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[24C[0m8[C0[32C80[61D[?7h[0m[?25l[?7l[26C[0m1[33C1[15C19[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[24C[0m9[C0[32C90[16C4[A[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[16C4[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[76C[0m20[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C3[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[16C2[A[78D[?7h[0m[?25l[?7l[77C[0m1[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C2[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[A[61D[?7h[0m[?25l[?7l[26C[0m5[33C5[16C0[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m6[33C6[61D[?7h[0m[?25l[?7l[26C[0m8[33C8[15C19[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C8[78D[?7h[0m[?25l[?7l[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[24C[0m9[C0[32C90[61D[?7h[0m[?25l[?7l[0m
+[23C[0m40[C0[12C=>[17C400[16C2[A[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C6[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[26C[0m1[33C1[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[16C1[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m5[33C5[16C6[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C0[A[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C5[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m6[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C0[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m7[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C6[78D[?7h[0m[?25l[?7l[23C[0m40[C1[12C=>[17C401[16C5[78D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[A[61D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C4[78D[?7h[0m[?25l[?7l[77C[0m5[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C3[78D[?7h[0m[?25l[?7l[77C[0m4[78D[?7h[0m[?25l[?7l[0m
+[24C[0m1[C0[32C10[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m5[78D[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[A[61D[?7h[0m[?25l[?7l[26C[0m5[33C5[16C4[78D[?7h[0m[?25l[?7l[77C[0m5[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C4[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m5[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C0[A[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C4[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[0m
+[26C[0m5[33C5[16C0[A[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C3[78D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[15C09[A[78D[?7h[0m[?25l[?7l[24C[0m1[C0[32C10[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m4[0m
+[26C[0m9[33C9[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[24C[0m2[C0[32C20[A[61D[?7h[0m[?25l[?7l[26C[0m1[33C1[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[A[61D[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[16C3[78D[?7h[0m[?25l[?7l[77C[0m4[78D[?7h[0m[?25l[?7l[0m
+[76C[0m10[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[15C09[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C8[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C2[0m
+[26C[0m6[33C6[16C7[A[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[61D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C1[78D[?7h[0m[?25l[?7l[24C[0m2[C0[32C20[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[16C7[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m2[78D[?7h[0m[?25l[?7l[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[77C[0m3[78D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C2[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C0[78D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[A[61D[?7h[0m[?25l[?7l[0m
+[24C[0m3[C0[32C30[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[16C8[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C6[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m1[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C5[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m4[C0[13C=>[17C40[16C4[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[16C4[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[26C[0m8[33C8[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m2[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C1[78D[?7h[0m[?25l[?7l[24C[0m3[C0[32C30[61D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C0[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[16C4[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C3[A[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[15C09[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m6[33C6[16C8[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C7[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m9[33C9[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[24C[0m4[C0[13C=>[17C40[61D[?7h[0m[?25l[?7l[26C[0m1[33C1[16C6[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[16C3[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[16C2[A[78D[?7h[0m[?25l[?7l[77C[0m7[0m
+[24C[0m5[C0[32C50[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C0[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C6[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C5[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[16C0[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[77C[0m6[0m
+[26C[0m9[33C9[A[61D[?7h[0m[?25l[?7l[0m
+[24C[0m6[C0[32C60[13C1[C59[A[78D[?7h[0m[?25l[?7l[?7h[0m[J[0m[?7h[?2004l[?1l[0m[?7h[0mFaber      | [0;34mStarted 100 credential exchanges in 22.44s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0mIssuing credentials[2C [0m 44.7% [0m[===========>              ] [0m447/[0m1000[C [0meta [02:06][79C [0m
+[0mReceiving credentials  46.0% [===========>              ] 460/1000  eta [02:00][79C [A[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m8[33C8[61D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C5[78D[?7h[0m[?25l[?7l[24C[0m5[C1[32C51[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m2[33C2[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[16C0[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[13C1[C59[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C8[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m5[33C5[16C4[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C3[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C2[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[24C[0m6[C0[32C60[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C8[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[24C[0m7[C0[32C70[16C7[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[A[61D[?7h[0m[?25l[?7l[77C[0m3[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[16C2[78D[?7h[0m[?25l[?7l[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m3[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[16C7[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C6[A[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[61D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C1[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m2[78D[?7h[0m[?25l[?7l[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m3[78D[?7h[0m[?25l[?7l[24C[0m7[C1[32C71[16C1[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[77C[0m2[0m
+[26C[0m9[33C9[A[61D[?7h[0m[?25l[?7l[26C[0m5[33C5[16C0[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[13C1[C59[78D[?7h[0m[?25l[?7l[0m
+[24C[0m8[C0[14C=>[16C80[16C7[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[16C6[A[78D[?7h[0m[?25l[?7l[74C[0m2[C00[0m
+[26C[0m6[33C6[16C5[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C4[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[24C[0m9[C0[32C90[A[61D[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m1[0m
+[26C[0m2[33C2[16C3[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C0[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C2[A[78D[?7h[0m[?25l[?7l[24C[0m8[C2[14C=>[16C82[13C1[C59[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C8[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C7[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[16C2[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[77C[0m8[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C7[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[61D[?7h[0m[?25l[?7l[24C[0m9[C1[32C91[16C6[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m4[33C4[0m
+[23C[0m50[C0[31C500[16C3[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[16C2[A[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[16C5[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[26C[0m6[33C6[0m
+[26C[0m6[33C6[16C0[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[15C49[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m1[C0[32C10[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m6[0m
+[76C[0m50[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[15C49[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C8[A[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[61D[?7h[0m[?25l[?7l[26C[0m9[33C9[61D[?7h[0m[?25l[?7l[23C[0m50[C1[31C501[16C5[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C3[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C2[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m3[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m8[33C8[61D[?7h[0m[?25l[?7l[24C[0m1[C0[32C10[16C2[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[76C[0m50[A[78D[?7h[0m[?25l[?7l[77C[0m3[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[16C2[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C1[78D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C0[0m
+[26C[0m8[33C8[15C49[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[A[61D[?7h[0m[?25l[?7l[0m
+[24C[0m2[C2[15C=>[15C22[16C8[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[16C7[A[78D[?7h[0m[?25l[?7l[77C[0m1[0m
+[26C[0m6[33C6[16C6[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[A[61D[?7h[0m[?25l[?7l[0m
+[24C[0m3[C0[32C30[16C5[A[78D[?7h[0m[?25l[?7l[77C[0m2[0m
+[26C[0m1[33C1[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[16C4[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C1[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C0[78D[?7h[0m[?25l[?7l[24C[0m2[C4[15C=>[15C24[15C48[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m5[33C5[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m6[33C6[61D[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C3[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[77C[0m9[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C8[78D[?7h[0m[?25l[?7l[24C[0m3[C1[32C31[16C7[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m8[0m
+[26C[0m9[33C9[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[24C[0m4[C0[32C40[16C4[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[16C3[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C7[0m
+[26C[0m6[33C6[16C2[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C6[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C5[78D[?7h[0m[?25l[?7l[77C[0m6[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[0m
+[24C[0m5[C0[32C50[16C1[A[78D[?7h[0m[?25l[?7l[24C[0m4[C0[32C40[61D[?7h[0m[?25l[?7l[26C[0m1[33C1[16C5[0m
+[26C[0m1[33C1[A[61D[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C4[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C3[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C0[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[15C39[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m4[0m
+[76C[0m40[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[J[0m[?7h[?2004l[?1l[0m[?7h[0mFaber      | [0;34mStarted 100 credential exchanges in 24.04s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0mIssuing credentials[2C [0m 54.7% [0m[=============>            ] [0m547/[0m1000[C [0meta [01:44][79C [0m
+[0mReceiving credentials  55.6% [=============>            ] 556/1000  eta [01:40][79C [A[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[61D[?7h[0m[?25l[?7l[24C[0m5[C0[32C50[16C3[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m1[33C1[61D[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C2[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[61D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[16C1[A[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[0m
+[24C[0m6[C1[16C=>[14C61[16C0[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[15C38[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C7[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m8[A[78D[?7h[0m[?25l[?7l[77C[0m3[78D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[16C7[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m7[C0[32C70[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[A[61D[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C2[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[24C[0m6[C0[16C=>[14C60[61D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C1[0m
+[26C[0m3[33C3[16C6[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C5[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[0m
+[77C[0m6[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C0[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[61D[?7h[0m[?25l[?7l[26C[0m6[33C6[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m7[33C7[15C39[78D[?7h[0m[?25l[?7l[76C[0m40[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[61D[?7h[0m[?25l[?7l[26C[0m9[33C9[61D[?7h[0m[?25l[?7l[24C[0m7[C1[32C71[15C39[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C6[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[A[61D[?7h[0m[?25l[?7l[0m
+[24C[0m8[C0[32C80[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[16C5[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C4[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C3[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m5[33C5[16C8[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[0m
+[26C[0m7[33C7[16C3[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C3[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[24C[0m9[C0[32C90[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m9[0m
+[26C[0m1[33C1[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[16C2[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C8[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[61D[?7h[0m[?25l[?7l[24C[0m8[C2[32C82[16C7[0m
+[26C[0m6[33C6[16C1[A[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C6[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C5[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m8[33C8[61D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C4[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m5[78D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[16C1[A[78D[?7h[0m[?25l[?7l[0m
+[23C[0m60[C0[17C=>[12C600[A[61D[?7h[0m[?25l[?7l[24C[0m9[C0[32C90[61D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C4[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[16C0[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[15C29[A[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C3[0m
+[76C[0m30[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m4[78D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[15C29[A[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C3[78D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[0m
+[24C[0m1[C0[32C10[16C8[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m4[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[16C8[A[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[23C[0m60[C0[17C=>[12C600[16C3[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m1[33C1[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m2[33C2[16C2[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C8[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m3[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C2[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m5[33C5[61D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C1[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C0[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[24C[0m1[C0[32C10[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m1[33C1[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C8[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m1[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m2[33C2[16C0[78D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[26C[0m3[33C3[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[26C[0m5[33C5[15C29[78D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[A[61D[?7h[0m[?25l[?7l[0m
+[24C[0m2[C0[32C20[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C6[A[78D[?7h[0m[?25l[?7l[76C[0m30[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m6[33C6[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C5[A[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[A[61D[?7h[0m[?25l[?7l[0m
+[24C[0m3[C0[32C30[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m8[33C8[15C29[78D[?7h[0m[?25l[?7l[24C[0m2[C0[32C20[61D[?7h[0m[?25l[?7l[26C[0m1[33C1[16C8[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[A[61D[?7h[0m[?25l[?7l[26C[0m3[33C3[0m
+[26C[0m2[33C2[16C4[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C7[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m6[33C6[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C3[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[26C[0m8[33C8[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m9[33C9[61D[?7h[0m[?25l[?7l[24C[0m3[C0[32C30[16C6[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[A[61D[?7h[0m[?25l[?7l[0m
+[24C[0m4[C0[18C=>[12C40[A[61D[?7h[0m[?25l[?7l[77C[0m7[78D[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[16C2[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m1[33C1[61D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C6[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[61D[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m5[33C5[16C5[78D[?7h[0m[?25l[?7l[77C[0m6[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[16C1[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m6[33C6[61D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C5[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[16C1[A[78D[?7h[0m[?25l[?7l[77C[0m6[0m
+[24C[0m5[C0[32C50[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C5[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C0[A[78D[?7h[0m[?25l[?7l[24C[0m4[C1[18C=>[12C41[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[16C4[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[26C[0m5[33C5[16C3[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C2[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m3[0m
+[26C[0m7[33C7[15C19[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[?7h[0m[J[0m[?7h[?2004l[?1l[0m[?7h[0mFaber      | [0;34mStarted 100 credential exchanges in 26.99s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0mIssuing credentials[2C [0m 64.8% [0m[================>         ] [0m648/[0m1000[C [0meta [01:23][79C [0m
+[0mReceiving credentials  65.8% [================>         ] 658/1000  eta [01:19][79C [A[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m9[33C9[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[24C[0m5[C0[32C50[16C2[78D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[A[61D[?7h[0m[?25l[?7l[26C[0m1[33C1[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[24C[0m6[C0[32C60[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[16C8[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[26C[0m3[33C3[61D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C1[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m6[33C6[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C7[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[A[61D[?7h[0m[?25l[?7l[0m
+[24C[0m7[C0[32C70[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m1[33C1[16C6[A[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[61D[?7h[0m[?25l[?7l[26C[0m9[33C9[61D[?7h[0m[?25l[?7l[24C[0m6[C2[32C62[16C0[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C5[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m6[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[61D[?7h[0m[?25l[?7l[26C[0m4[33C4[15C19[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m5[33C5[61D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C8[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C5[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m9[33C9[61D[?7h[0m[?25l[?7l[24C[0m7[C0[32C70[61D[?7h[0m[?25l[?7l[26C[0m1[33C1[16C7[78D[?7h[0m[?25l[?7l[77C[0m8[78D[?7h[0m[?25l[?7l[0m
+[77C[0m6[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C5[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[24C[0m8[C0[19C=>[11C80[A[61D[?7h[0m[?25l[?7l[26C[0m2[33C2[0m
+[26C[0m2[33C2[16C4[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C7[0m
+[26C[0m4[33C4[16C3[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m5[33C5[0m
+[77C[0m4[A[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C6[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m7[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m8[33C8[16C6[78D[?7h[0m[?25l[?7l[77C[0m7[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C6[78D[?7h[0m[?25l[?7l[24C[0m8[C1[19C=>[11C81[61D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C3[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C5[0m
+[26C[0m9[33C9[A[61D[?7h[0m[?25l[?7l[0m
+[24C[0m9[C1[32C91[16C2[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C1[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m5[33C5[16C4[78D[?7h[0m[?25l[?7l[77C[0m5[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[16C0[A[78D[?7h[0m[?25l[?7l[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C0[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[61D[?7h[0m[?25l[?7l[26C[0m7[33C7[0m
+[23C[0m70[C0[31C700[16C0[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[15C09[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C4[78D[?7h[0m[?25l[?7l[24C[0m9[C4[32C94[16C2[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m5[33C5[61D[?7h[0m[?25l[?7l[26C[0m6[33C6[61D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C1[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m2[0m
+[26C[0m6[33C6[16C8[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m8[33C8[16C1[78D[?7h[0m[?25l[?7l[77C[0m2[78D[?7h[0m[?25l[?7l[0m
+[24C[0m1[C0[32C10[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[16C7[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C1[78D[?7h[0m[?25l[?7l[23C[0m70[C0[31C700[16C0[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[61D[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m5[33C5[15C09[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C6[A[78D[?7h[0m[?25l[?7l[76C[0m10[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[0m
+[24C[0m2[C0[20C=>[10C20[16C5[A[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[15C09[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[16C4[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m9[33C9[61D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[24C[0m1[C0[32C10[61D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C8[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[61D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C7[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[61D[?7h[0m[?25l[?7l[26C[0m6[33C6[61D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C6[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m7[0m
+[77C[0m5[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C4[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m8[33C8[16C6[78D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[26C[0m9[33C9[0m
+[26C[0m8[33C8[16C3[A[78D[?7h[0m[?25l[?7l[24C[0m2[C1[20C=>[10C21[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m2[33C2[16C5[78D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[61D[?7h[0m[?25l[?7l[0m
+[24C[0m3[C0[32C30[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[16C2[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[26C[0m5[33C5[16C4[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m5[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m6[33C6[61D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C4[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m9[33C9[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[24C[0m3[C0[32C30[61D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C3[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C2[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[16C1[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m4[C2[32C42[16C0[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[26C[0m5[33C5[61D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C2[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[13C0[C59[A[78D[?7h[0m[?25l[?7l[24C[0m4[C2[32C42[16C0[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[26C[0m3[33C3[0m
+[24C[0m5[C0[32C50[16C8[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[16C7[A[78D[?7h[0m[?25l[?7l[?7h[0m[J[0m[?7h[?2004l[?1l[0m[?7h[0mFaber      | [0;34mStarted 100 credential exchanges in 22.52s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0mIssuing credentials[2C [0m 74.3% [0m[==================>       ] [0m743/[0m1000[C [0meta [01:00][79C [0m
+[0mReceiving credentials  75.2% [==================>       ] 752/1000  eta [00:57][79C [A[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m1[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m6[33C6[16C0[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[26C[0m7[33C7[13C0[C59[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[74C[0m1[C00[0m
+[24C[0m6[C0[21C=>[9C60[16C5[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m9[33C9[13C0[C59[78D[?7h[0m[?25l[?7l[24C[0m5[C3[32C53[16C8[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C4[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[0m
+[24C[0m7[C1[32C71[16C3[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[16C2[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m5[33C5[61D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C7[78D[?7h[0m[?25l[?7l[24C[0m6[C0[21C=>[9C60[16C6[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[61D[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[16C5[0m
+[77C[0m3[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m6[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[26C[0m5[33C5[16C5[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[61D[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m8[33C8[16C4[78D[?7h[0m[?25l[?7l[24C[0m7[C1[32C71[61D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C3[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[16C2[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[16C1[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m8[C1[32C81[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[16C0[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m4[0m
+[77C[0m1[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[16C0[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[61D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[15C49[A[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C3[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[0m
+[24C[0m9[C1[32C91[16C8[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C2[78D[?7h[0m[?25l[?7l[24C[0m8[C1[32C81[16C1[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[26C[0m5[33C5[61D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C0[78D[?7h[0m[?25l[?7l[0m
+[77C[0m9[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C8[A[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[24C[0m9[C0[32C90[15C49[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[0m
+[23C[0m80[C2[22C=>[7C802[16C6[A[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[61D[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[26C[0m5[33C5[16C8[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[61D[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C5[A[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[0m
+[26C[0m9[33C9[16C4[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m1[C2[32C12[A[61D[?7h[0m[?25l[?7l[23C[0m80[C2[22C=>[7C802[16C6[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m7[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m5[33C5[16C6[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C5[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[61D[?7h[0m[?25l[?7l[24C[0m1[C2[32C12[16C4[78D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[16C3[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[0m
+[24C[0m2[C0[32C20[16C2[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[16C1[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[77C[0m2[A[78D[?7h[0m[?25l[?7l[77C[0m5[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C4[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C3[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[61D[?7h[0m[?25l[?7l[24C[0m2[C1[32C21[16C2[0m
+[26C[0m3[33C3[16C1[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[16C0[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[0m
+[24C[0m3[C2[32C32[15C39[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[16C8[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[61D[?7h[0m[?25l[?7l[26C[0m7[33C7[16C1[78D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C0[78D[?7h[0m[?25l[?7l[24C[0m3[C0[32C30[61D[?7h[0m[?25l[?7l[26C[0m2[33C2[15C39[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[0m
+[24C[0m4[C0[23C=>[7C40[16C7[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[16C6[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[77C[0m7[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[76C[0m40[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[15C39[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[61D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C8[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[61D[?7h[0m[?25l[?7l[24C[0m4[C2[23C=>[7C42[16C7[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C6[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[16C5[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m5[C2[32C52[16C4[A[78D[?7h[0m[J[0m[?7h[?2004l[?1l[0m[?7h[0mFaber      | [0;34mStarted 100 credential exchanges in 23.56s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0mIssuing credentials[2C [0m 84.2% [0m[=====================>    ] [0m842/[0m1000[C [0meta [00:37][79C [0m
+[0mReceiving credentials  85.2% [=====================>    ] 852/1000  eta [00:34][79C [A[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[61D[?7h[0m[?25l[?7l[26C[0m5[33C5[16C6[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[26C[0m8[33C8[0m
+[26C[0m6[33C6[16C3[A[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C5[0m
+[24C[0m6[C0[32C60[16C2[A[78D[?7h[0m[?25l[?7l[24C[0m5[C1[32C51[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C4[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m5[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[16C4[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[26C[0m6[33C6[61D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C3[78D[?7h[0m[?25l[?7l[24C[0m6[C1[32C61[16C2[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[16C1[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[0m
+[24C[0m7[C2[32C72[15C29[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[76C[0m30[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[61D[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C1[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[24C[0m7[C1[32C71[16C0[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[15C29[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[16C8[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m8[C2[24C=>[6C82[16C7[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[26C[0m3[33C3[61D[?7h[0m[?25l[?7l[26C[0m5[33C5[15C29[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[24C[0m8[C0[24C=>[6C80[16C8[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[26C[0m1[33C1[16C7[0m
+[26C[0m5[33C5[16C6[A[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[16C5[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m9[C2[32C92[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[61D[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C6[78D[?7h[0m[?25l[?7l[24C[0m9[C0[32C90[16C5[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[61D[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C4[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C3[A[78D[?7h[0m[?25l[?7l[0m
+[23C[0m90[C2[31C902[16C2[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[26C[0m3[33C3[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C4[0m
+[26C[0m6[33C6[16C1[A[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[0m
+[24C[0m1[C2[32C12[16C0[A[78D[?7h[0m[?25l[?7l[26C[0m9[33C9[16C3[78D[?7h[0m[?25l[?7l[23C[0m90[C0[31C900[61D[?7h[0m[?25l[?7l[26C[0m2[33C2[16C2[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m3[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[16C2[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[26C[0m6[33C6[61D[?7h[0m[?25l[?7l[24C[0m1[C2[32C12[16C0[78D[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[15C19[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m2[C2[25C=>[5C22[16C8[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[61D[?7h[0m[?25l[?7l[26C[0m5[33C5[15C19[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[61D[?7h[0m[?25l[?7l[24C[0m2[C0[25C=>[5C20[16C8[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[61D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[16C7[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C6[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m3[C2[32C32[16C5[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C7[78D[?7h[0m[?25l[?7l[26C[0m5[33C5[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m8[33C8[16C6[78D[?7h[0m[?25l[?7l[24C[0m3[C2[32C32[16C5[78D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C4[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m9[33C9[A[61D[?7h[0m[?25l[?7l[0m
+[24C[0m4[C2[32C42[16C3[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[77C[0m6[78D[?7h[0m[?25l[?7l[26C[0m3[33C3[16C5[78D[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[26C[0m6[33C6[61D[?7h[0m[?25l[?7l[26C[0m8[33C8[16C4[78D[?7h[0m[?25l[?7l[24C[0m4[C0[32C40[61D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[16C2[A[78D[?7h[0m[?25l[?7l[26C[0m1[33C1[16C3[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[26C[0m2[33C2[0m
+[24C[0m5[C0[32C50[16C1[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[A[61D[?7h[0m[J[0m[?7h[?2004l[?1l[0m[?7h[0mFaber      | [0;34mDone starting 1000 credential exchanges in 220.49s[0m
+[0m[6n[?2004h[?25l[0m[?7l[0m[J[0mIssuing credentials[2C [0m 94.2% [0m[=======================>  ] [0m942/[0m1000[C [0meta [00:13][79C [0m
+[0mReceiving credentials  95.2% [=======================>  ] 952/1000  eta [00:11][79C [A[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[61D[?7h[0m[?25l[?7l[26C[0m5[33C5[16C2[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[24C[0m5[C1[32C51[16C1[78D[?7h[0m[?25l[?7l[26C[0m2[33C2[0m
+[26C[0m3[33C3[16C0[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[15C09[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m6[C2[26C=>[4C62[16C8[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[61D[?7h[0m[?25l[?7l[26C[0m4[33C4[16C0[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[26C[0m8[33C8[15C09[78D[?7h[0m[?25l[?7l[24C[0m6[C2[26C=>[4C62[16C8[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C7[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m7[C2[32C72[16C6[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[16C5[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[A[61D[?7h[0m[?25l[?7l[0m
+[24C[0m8[C1[32C81[16C4[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m2[33C2[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[61D[?7h[0m[?25l[?7l[26C[0m5[33C5[61D[?7h[0m[?25l[?7l[24C[0m7[C2[32C72[16C6[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[16C3[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[61D[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[26C[0m5[33C5[16C5[78D[?7h[0m[?25l[?7l[26C[0m6[33C6[61D[?7h[0m[?25l[?7l[24C[0m8[C2[32C82[16C4[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m5[33C5[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[A[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m8[33C8[16C2[A[78D[?7h[0m[?25l[?7l[0m
+[24C[0m9[C2[32C92[16C1[A[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m3[33C3[16C3[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[26C[0m6[33C6[61D[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[24C[0m9[C2[32C92[16C1[78D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m3[33C3[A[61D[?7h[0m[?25l[?7l[26C[0m3[33C3[61D[?7h[0m[?25l[?7l[?7h[0m[?25l[?7l[0m
+[26C[0m4[33C4[A[61D[?7h[0m[?25l[?7l[0m
+[26C[0m6[33C6[16C0[A[78D[?7h[0m[?25l[?7l[0m
+[26C[0m7[33C7[A[61D[?7h[0m[?25l[?7l[0m
+[22C[0m100[C0[27C=>[2C1000/1[2C0[A[67D[?7h[0m[?25l[?7l[26C[0m4[33C4[61D[?7h[0m[?25l[?7l[26C[0m5[33C5[61D[?7h[0m[?25l[?7l[26C[0m6[33C6[16C0[78D[?7h[0m[?25l[?7l[26C[0m7[33C7[61D[?7h[0m[?25l[?7l[26C[0m8[33C8[61D[?7h[0m[?25l[?7l[0m[J[0mIssuing credentials[2C [0m100.0% [0m[=========================>] [0m1000/[0m1000 [0meta [00:00][79C [0m
+[0mReceiving credentials 100.0% [=========================>] 1000/1000 eta [00:00][79C [0m
+[J[?7h[0m[?12l[?25h[?2004l[0m[?7h[0mFaber      | [0;34mCompleted 1000 credential exchanges in 229.45s[0m
+[0m[0m[?7h[0mFaber      | [0;34mAverage time per credential: 0.23s (4.36/s)[0m
+[0mAlice      | 
+Alice      | Shutting down
+[0m[?7h[0mAlice      | [0;34mExited with return code 0[0m
+[0mFaber      | 
+Faber      | Shutting down
+[0m[?7h[0mFaber      | [0;34mExited with return code 0[0m
+[0m[0m[?7h[0;35mTotal runtime: 251.01s[0m
+[0m

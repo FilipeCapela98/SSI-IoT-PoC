@@ -1,0 +1,375 @@
+\documentclass[a4paper,10pt,twoside]{article}
+%\documentclass[a4paper,12pt]{article}
+\usepackage{comment}
+\usepackage{lipsum}
+\usepackage{multirow}
+\usepackage{subcaption}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{wrapfig}    % inline figures
+\usepackage{enumitem}
+\usepackage{mwe}
+\usepackage{here}     % Forced Figure Placement
+\usepackage{pslatex}	% Use PostScript Fonts
+\usepackage{fancyhdr} % Use headers
+\usepackage{float}
+\PassOptionsToPackage{hyphens}{url}
+\usepackage{hyperref}
+\usepackage{spverbatim}
+\usepackage{scrextend}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=blue,      
+    urlcolor=magenta,
+}
+%Define the listing package
+\usepackage{listings} %code highlighter
+\usepackage{color} %use color
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+ 
+%Customize a bit the look
+\lstset{ %
+backgroundcolor=\color{white}, % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}
+basicstyle=\footnotesize, % the size of the fonts that are used for the code
+breakatwhitespace=false, % sets if automatic breaks should only happen at whitespace
+breaklines=true, % sets automatic line breaking
+captionpos=b, % sets the caption-position to bottom
+commentstyle=\color{mygreen}, % comment style
+deletekeywords={...}, % if you want to delete keywords from the given language
+escapeinside={\%*}{*)}, % if you want to add LaTeX within your code
+extendedchars=true, % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+frame=single, % adds a frame around the code
+keepspaces=true, % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+keywordstyle=\color{blue}, % keyword style
+% language=Octave, % the language of the code
+morekeywords={*,...}, % if you want to add more keywords to the set
+numbers=left, % where to put the line-numbers; possible values are (none, left, right)
+numbersep=5pt, % how far the line-numbers are from the code
+numberstyle=\tiny\color{mygray}, % the style that is used for the line-numbers
+rulecolor=\color{black}, % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+showspaces=false, % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+showstringspaces=false, % underline spaces within strings only
+showtabs=false, % show tabs within strings adding particular underscores
+stepnumber=1, % the step between two line-numbers. If it's 1, each line will be numbered
+stringstyle=\color{mymauve}, % string literal style
+tabsize=2, % sets default tabsize to 2 spaces
+title=\lstname % show the filename of files included with \lstinputlisting; also try caption instead of title
+}
+%END of listing package%
+ 
+\definecolor{darkgray}{rgb}{.4,.4,.4}
+\definecolor{purple}{rgb}{0.65, 0.12, 0.82}
+ 
+%define Javascript language
+\lstdefinelanguage{JavaScript}{
+keywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break},
+keywordstyle=\color{blue}\bfseries,
+ndkeywords={class, export, boolean, throw, implements, import, this},
+ndkeywordstyle=\color{darkgray}\bfseries,
+identifierstyle=\color{black},
+sensitive=false,
+comment=[l]{//},
+morecomment=[s]{/*}{*/},
+commentstyle=\color{purple}\ttfamily,
+stringstyle=\color{red}\ttfamily,
+morestring=[b]',
+morestring=[b]"
+}
+ 
+\lstset{
+extendedchars=true,
+basicstyle=\footnotesize\ttfamily,
+showstringspaces=false,
+showspaces=false,
+numbers=left,
+numberstyle=\footnotesize,
+numbersep=9pt,
+tabsize=2,
+breaklines=true,
+showtabs=false,
+captionpos=b,
+literate=%
+    {€}{\euro}1%
+}
+\usepackage{longtable}
+\usepackage{filecontents}
+\usepackage{lscape}
+\usepackage{eurosym}
+\usepackage{pdflscape}
+\usepackage{float}
+\usepackage[T1]{fontenc} 
+\usepackage{etoc}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage[toc,page]{appendix}
+\usepackage[demo]{graphicx}
+\usepackage{zref-savepos}
+\usepackage{caption}
+\usepackage{multicol}
+\usepackage{subcaption}
+\usepackage{comment}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage[normalem]{ulem} %package to underline text
+\usepackage[super]{nth} %package to write 1st, 2nd, 3rd
+\usepackage[bottom]{footmisc} %package that forces footnotes at bottom of page
+\usepackage{diagbox}
+\usepackage{booktabs}
+\usepackage[para,online,flushleft]{threeparttable}
+\usepackage{booktabs}
+\captionsetup{font=small,labelfont=bf,labelsep=period}
+\usepackage[toc,automake, acronym]{glossaries}
+
+\usepackage{xcolor,pifont}
+\newcommand*\colourcheck[1]{%
+  \expandafter\newcommand\csname #1check\endcsname{\textcolor{#1}{\ding{52}}}%
+}
+
+\newcommand*\colourcheckk[1]{%
+  \expandafter\newcommand\csname #1checkk\endcsname{\textcolor{#1}{\ding{55}}}%
+}
+
+\colourcheck{green}
+
+\colourcheckk{red}
+
+\makeatletter
+\newcommand{\customlabel}[2]{%
+   \protected@write \@auxout {}{\string \newlabel {#1}{{#2}{\thepage}{#2}{#1}{}} }%
+   \hypertarget{#1}{#2}
+}
+\makeatother
+
+\usepackage{tikz}
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
+
+% Here I keep the left and right margins equal. You can choose to have unequal margins if you want a two-sided book effect.
+\usepackage[
+	top    = 1.5cm,
+	bottom = 1.80cm,
+	left   = 2.00cm,
+	right  = 2.00cm,
+	includeheadfoot]{geometry} % Use similar margins to the Word Template
+\setlength{\parindent}{0pt}
+
+% Define the page styles
+\fancypagestyle{titlepage}{
+	\fancyhf{}
+	\fancyhead[CC]{\includegraphics[width=0.8\textwidth]{images/banner.png}\includegraphics[width=0.20\textwidth]{images/IBM_logo®_pos_CMYK.jpg}}
+	\renewcommand{\headrulewidth}{0pt}
+}
+
+%\fancypagestyle{body}{
+%	\fancyhf{}
+%  \fancyhead[C]{\includegraphics{images/banner.png}}
+%}
+
+\fancypagestyle{body}{
+    \fancyhf{}
+    \fancyhead[LE,RO]{\thepage}
+    \fancyhead[RE,LO]{Chapter \leftmark}
+}
+
+
+\newlength{\textundbildtextheight}
+ 
+\newcommand{\textundbild}[2]{
+\settototalheight\textundbildtextheight{\vbox{#1}}
+#1
+\vfill
+\begin{center}
+\includegraphics[width=\textwidth,keepaspectratio=true,height=\textheight-\the\textundbildtextheight]{#2}
+\end{center}
+\vfill
+}
+
+\makeglossaries
+
+
+\fancypagestyle{contents}{
+    \fancyhf{}
+    \fancyhead[LE,RO]{\thepage}
+    \fancyhead[RE,LO]{\leftmark}
+}
+
+\fancypagestyle{appendix}{
+    \fancyhf{}
+    \fancyhead[LE,RO]{\thepage}
+    \fancyhead[RE,LO]{APPENDICES}
+}
+
+\fancypagestyle{acknowledgements}{
+    \fancyhf{}
+    \fancyhead[LE,RO]{\thepage}
+}
+
+
+\renewcommand{\headrulewidth}{1.5pt}
+\renewcommand{\arraystretch}{1.2}
+\usepackage{tabularx}
+
+% include bibliography in table of contents
+%\usepackage[nottoc,numbib]{tocbibind}
+\usepackage[nottoc]{tocbibind}
+\renewcommand{\refname}{Bibliography}
+
+
+% COLORS
+
+\definecolor{green}{HTML}{82B366}
+\definecolor{yellow}{HTML}{DBBA00}
+\definecolor{red}{HTML}{B85450}
+\definecolor{purple}{HTML}{583B73}
+\definecolor{blue}{HTML}{10739E}
+
+
+\newacronym{ACA-Py}{ACA-Py}{Aries Cloud Agent - Python}
+\newacronym{CPO}{CPO}{Charging Point Operator}
+\newacronym[plural=CPs,longplural={Control Parties}]{CP}{CP}{Control Party}
+\newacronym{CS}{CS}{Charging Station}
+\newacronym{DID}{DID}{Decentralized Identifier}
+\newacronym{DIDComm}{DIDComm}{DID Communication}
+\newacronym{DLT}{DLT}{Distributed Ledger Technology}
+\newacronym{eMSP}{eMSP}{eMobility Service Provider}
+\newacronym{EP}{EP}{Electricity Provider}
+\newacronym{EV Owner}{EV Owner}{Electric Vehicle Owner}
+\newacronym{EV}{EV}{Electric Vehicle}
+\newacronym{FR}{FR}{Functional Requirement}
+\newacronym{GDPR}{GDPR}{General Data Protection Regulation}
+\newacronym{IdMS}{IdMS}{Identity Management System}
+\newacronym{IdP}{IdP}{Identity Provider}
+\newacronym{IoT}{IoT}{Internet of Things}
+\newacronym{IoV}{IoV}{Internet of Vehicles}
+\newacronym{ISO}{ISO}{International Organization for Standardization}
+\newacronym{ITU}{ITU}{International Telecommunication Union}
+
+\newacronym{JSON}{JSON}{JavaScript Object Notation}
+\newacronym{kWh}{kWh}{Kilowatt-hour}
+
+\newacronym{NFR}{NFR}{Non-Functional Requirement}
+\newacronym{OEM}{OEM}{Original Equipment Manufacturer}
+\newacronym{PII}{PII}{Personally Identifiable Information}
+\newacronym{REST}{REST}{REpresentational State Transfer}
+\newacronym{RFC}{RFC}{Request For Comment}
+\newacronym[plural=RPs,longplural={Relying Parties}]{RP}{RP}{Relying Party}
+\newacronym{SP}{SP}{Service Provider}
+\newacronym{SSD}{SSD}{System Sequence Diagram}
+\newacronym{SSI}{SSI}{Self-Sovereign Identity}
+\newacronym{SSO}{SSO}{Single Sign-On}
+\newacronym{TA}{TA}{Transportation Agency}
+\newacronym{TPS}{TPS}{Transactions Per Second}
+\newacronym{VBC}{VBC}{Vehicle Birth Certificate}
+\newacronym{VC}{VC}{Verifiable Credential}
+\newacronym{VIN}{VIN}{Vehicle Identification Number}
+\newacronym{VON}{VON}{Verifiable Organizations Network}
+\newacronym{W3C}{W3C}{World Wide Web Consortium}
+\newacronym{ZKP}{ZKP}{Zero-Knowledge Proof}
+
+% Store modifiable content
+\newlength{\storetabcolsep}
+\AtBeginDocument{%
+  \let\storearraystretch\arraystretch% \arraystretch
+  \setlength{\storetabcolsep}{\tabcolsep}% \tabcolsep
+}
+
+% Makes tables more readable
+\newcommand{\increasetablespace}{%
+  \renewcommand{\arraystretch}{2}%
+  \setlength{\tabcolsep}{12pt}}%
+% Restore stretching defaults
+\newcommand{\restoretablespace}{%
+  \let\arraystretch\storearraystretch% \arraystretch
+  \setlength{\tabcolsep}{\storetabcolsep}}% \tabcolsep
+
+
+% Stylistic note: I use `\\` at the end of every paragraph to give some space between two paragraphs because I think it looks neater. You can change the inter-paragraph spacing by using 
+% \setlength{\parskip}{1em} [Note that this may affect how the lines in the content pages are spaced]
+% instead of `\\` at the end of each paragraph
+% or you can leave it out altogether if you want no spacing between paragraphs
+
+% Begin the actual document
+\begin{document}
+\pagestyle{body}
+
+\pagenumbering{roman}
+
+%\setlength{\headheight}{50pt}
+
+\title{
+    \vspace{5cm}
+        {\bf
+        {\Huge Self-Sovereign Identity\\
+        \vspace{2mm}for the Internet of Things: A Case Study\\
+        \vspace{4mm}on Verifiable Electric Vehicle Charging}
+        }\\
+        \vspace{10cm}{\LARGE Filipe Alexandre Rosa Capela}
+}
+\date{}
+
+\maketitle
+\thispagestyle{titlepage}
+
+\newpage
+
+\thispagestyle{titlepage}
+
+\vspace*{4cm}
+
+\begin{center}
+    {\bf{\large Rijksuniversiteit Groningen}}\\
+    \vspace{1cm}{\bf{\large Self-Sovereign Identity \\\vspace{1mm}for the Internet of Things: A Case Study \\\vspace{1mm}on Verifiable Electric Vehicle Charging}}\\
+    \vspace{2cm}{\bf Master's Thesis}\\
+    \vspace{0.5cm}To fulfill the requirements for the degree of\\Master of Science in Computing Science\\
+    at the University of Groningen under the supervision of\\
+    \vspace{0.5cm}
+    dr. Vasilios Andrikopoulos (Computer Science, University of Groningen)\\
+    prof. dr. Dimka Karastoyanova (Computer Science, University of Groningen)\\
+    Arne Rutjes (Blockchain Practice Lead Europe, IBM Client Innovation Center)\\
+    Arjen van Veen (Lead Developer Self-Sovereign Identity, IBM Client Innovation Center)\\
+    
+    \vspace{3cm}{\bf Filipe Alexandre Rosa Capela (s4040112)}\\
+    \vspace{4cm}\today
+    
+\end{center}
+
+\newpage
+
+\setlength{\headheight}{32pt}
+
+\thispagestyle{acknowledgements}    % remove this if you want `CONTENTS' to appear in the header of the first Contents page
+\include{chapters/0.1-contents}
+
+\listoffigures
+
+\include{chapters/0.2-Glossary}
+
+\include{chapters/1-acknowledgements}
+
+\include{chapters/2-abstract}
+
+\pagestyle{body}
+
+\include{chapters/3-introduction}
+
+\include{chapters/4-background}
+
+\include{chapters/5-requirement_elicitation}
+
+\include{chapters/6-system_design}
+
+\include{chapters/7-implementation_deployment}
+
+\include{chapters/8-evaluation}
+
+\include{chapters/9-conclusion}
+
+\pagestyle{contents}
+
+\bibliographystyle{ieeetr}
+\bibliography{biblio}
+
+\include{chapters/appendix}
+
+\end{document}
